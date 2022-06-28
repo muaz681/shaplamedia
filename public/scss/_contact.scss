@@ -1,0 +1,187 @@
+.consultation_area{
+    padding: 110px 0 120px 0;
+	@media #{$tab} {
+		padding: 35px 0 45px 0;
+	}
+    .grid_form{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 10px;
+        @media #{$tab2} {
+            grid-template-columns: repeat(1,1fr);
+        }
+    }
+    .consultation_wrap{
+        padding-left: 15px;
+        @media #{$tab} {
+            padding-left: 0;
+        }
+    }
+}
+
+.primary_input{
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #eef0f4;
+    font-family: $font2;
+    font-size: 14px;
+    font-weight: 400;
+    color: $theme_color;
+    padding:10px 25px;
+    width: 100%;
+    &::placeholder{
+        font-size: 14px;
+        color: #4b4b4b;
+        text-transform: capitalize;
+    }
+}
+.primary_input2{
+    height: 60px;
+    border-radius: 0px;
+    border: 0;
+    border-bottom: 1px solid #f0e7e2;
+    font-family: $font2;
+    font-size: 16px;
+    font-weight: 300;
+    color: $theme_color;
+    padding:0px 25px  25px 0;
+    width: 100%;
+    &::placeholder{
+        font-size: 16px;
+        color: #4b4b4b;
+        text-transform: capitalize;
+    }
+}
+.primary_textarea{
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid #eef0f4;
+    font-family: $font2;
+    font-size: 14px;
+    font-weight: 400;
+    color: $theme_color;
+    padding: 25px;
+    width: 100%;
+    &::placeholder{
+        font-size: 14px;
+        color: #4b4b4b;
+        text-transform: capitalize;
+    }
+}
+.primary_textarea2{
+    height: 130px;
+    border-radius: 0px;
+    border: 0;
+    border-bottom: 1px solid #f0e7e2;
+    font-family: $font2;
+    font-size: 16px;
+    font-weight: 300;
+    color: $theme_color;
+    padding: 3px 25px 0 0;
+    width: 100%;
+    &::placeholder{
+        font-size: 14px;
+        color: #4b4b4b;
+        text-transform: capitalize;
+    }
+}
+.primary_select{
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #eef0f4;
+    font-family: $font2;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4b4b4b;
+    line-height: 60px;
+    padding-left: 25px;
+    &:active,
+    &:hover,
+    &.open, 
+    &:focus {
+        border-color: #eef0f4;
+    }
+    .list{
+        width: 100%;
+        li{
+
+        }
+    }
+    &::after{
+        right: 31px;
+        top: 3px;
+    }
+}
+
+// contact_section 
+.contact_section{
+    #contact-map{
+        height: 450px;
+        margin-bottom: 75px;
+        @media #{$tab} {
+            margin-bottom: 50px;
+            height: 350px;
+        }
+    }
+    .contact_address{
+        margin-bottom: 44px;
+        @media #{$tab} {
+            margin-bottom: 25px;
+        }
+        &:last-child{
+           margin-bottom: 30px;
+           @media #{$tab} {
+            margin-bottom: 30px;
+        }
+        }
+        .contact__title{
+            margin-bottom: 30px;
+            span{
+                font-size: 14px;
+                font-weight: 400;
+                color: #4b4b4b;
+                text-transform: uppercase;
+                display: block;
+                margin-bottom: 6px;
+            }
+            h4{
+                font-size: 24px;
+                font-weight: 400;
+                color: #001a3e;
+            }
+        }
+        .contact_info{
+           
+            .single_contact_info{
+                display: grid;
+                grid-gap: 10px;
+                grid-template-columns:  84px auto;
+                margin-bottom: 24px;
+                @media #{$small_mobile} {
+                    grid-template-columns:  70px auto;
+                    }
+                h4{
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin-bottom: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    @media #{$small_mobile} {
+                    font-size: 18px;
+                    }
+                }
+                p{
+                    margin-bottom: 0;
+                    @media #{$small_mobile}  {
+                        position: relative;
+                        top: -2px;
+                    }
+                    @media #{$large_mobile}  {
+                        position: relative;
+                        top: -2px;
+                    }
+                }
+            }
+        }
+    }
+}

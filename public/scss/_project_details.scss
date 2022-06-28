@@ -1,0 +1,80 @@
+.project_details_area{
+    .project_title_details{
+        padding-bottom: 44px;
+        @media #{$tab}{
+            padding-bottom: 30px;
+        }
+        display: grid;
+        grid-template-columns:3fr 9fr;
+        @media #{$tab} {
+            grid-template-columns: 1fr;
+        }
+        .project_title_left{
+            .single_pro_title{
+                margin-bottom: 50px;
+                @media #{$tab}{
+                    margin-bottom: 30px;
+                }
+                h4{
+                    font-size: 24px;
+                    font-weight: 400;
+                    margin-bottom: 5px;
+                }
+                p{
+
+                }
+            }
+        }
+        .project_title_right{
+            border-left: 1px solid #e3e3e3;
+            padding-left: 115px;
+            @media #{$tab}{
+                border-left: 0;
+                padding-left: 0;
+            }
+            @media #{$medium_device} {
+                padding-left: 50px;
+            }
+            @media #{$lg_device} {
+                padding-left: 60px;
+            }
+            .single_d_info{
+               
+                &:not(:last-child){
+                    margin-bottom: 36px;
+                    @media #{$tab}{
+                        margin-bottom: 30px;
+                    }
+                }
+                h3{
+                    font-size: 36px;
+                    font-weight: 400;
+                    color: $theme_color;
+                    margin-bottom: 22px;
+                    @media #{$tab}{
+                        font-size: 25px;
+                    }
+                }
+                p{
+
+                }
+            }
+        }
+    }
+    .single_project__details{
+        
+        .thumb{
+            padding-bottom: 40px;
+            @media #{$tab}{
+                padding-bottom: 30px;
+            }
+        }
+        h4{
+            line-height: 35px;
+            margin: 36px 0 42px 0;
+            @media #{$tab}{
+                margin: 30px 0 40px 0;
+            }
+        }
+    }
+}

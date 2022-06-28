@@ -1,0 +1,186 @@
+.brand_wrapper{
+    h4{
+        font-size: 1.25rem;
+        font-weight: 800;
+        text-transform: capitalize;
+        margin: 0px;
+        padding: 0.5rem 0px;
+        margin-bottom: 15px;
+    }
+    .brand_wrapper_inner{
+        display: grid;
+        grid-template-columns: repeat( auto-fill, minmax(200px, 1fr) );
+        grid-gap: 15px;
+        .single_brand{
+            border: 1px solid rgb(234, 234, 234);
+            transition: .3s;
+            &:hover{
+                border: 1px solid rgb(145, 145, 145);
+                box-shadow: rgba(216, 216, 216, 0.5) 0px 6px 6px 0px;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.movie_player_wrapper{
+    padding-top: 2.75rem;
+    .section__title{
+        padding-left: 2.75rem;
+    }
+    .movie_payer_inner{
+        background-color: rgb(25, 25, 25);
+        
+        .single_movie_player{
+            
+            .movie_preview{
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 270px;
+                .movie_play_icon{
+                    font-size: 30px;
+                    color: #fff;
+                }
+            }
+            .movie_captions{
+                h3{
+                    width: 100%;
+                    box-sizing: border-box;
+                    margin: 0px;
+                    padding: 1.25rem;
+                    font-size: 1rem;
+                    font-weight: normal;
+                    line-height: 1.625em;
+                    text-align: left;
+                    text-transform: capitalize;
+                    white-space: pre-wrap;
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+    }
+    
+}
+
+.movie_bg_1{
+    background-image: url(../img/movie_img/bg_1.jpg);
+}
+
+.gallery_carousel{
+    padding-top: 2.75rem;
+    .section__title{
+        padding-left: 2.75rem;
+    }
+    .gallery_carousel_inner{
+        background: #0E0E0E;
+    }
+    .single_testmonial{
+        border-bottom: 1px solid rgb(102, 102, 102);
+        img{
+            display: flex;
+            -moz-box-align: center;
+            align-items: center;
+            width: auto;
+            height: auto;
+            margin: auto;
+        }
+    }
+    .slider-nav .slick-slide{
+        margin: 8px 8px 8px 0px;
+        border: 4px solid transparent;
+        overflow: hidden;
+        &:hover img{
+            transform: scale(1.1);
+        }
+        img {
+            display: inline-block;
+            width: 100%;
+            transform: scale(1);
+            transition: .3s;
+            cursor: pointer;
+        }
+        &.slick-current.slick-active{
+            border: 4px solid rgb(0, 179, 255);
+        }
+    } 
+}
+
+// about_movie_wrapper 
+.about_movie_wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(30, 30, 30);
+    .thumb{
+        flex: 1 1 0%;
+        padding: 2rem;
+        img{
+            display: block;
+            width: 16rem;
+            max-width: 100%;
+            max-height: 100%;
+            margin: 0px auto;
+        }
+    }
+    .about_info{
+        flex: 2 1 0%;
+        padding: 2rem;
+        h3{
+            font-weight: 800;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 2.5rem;
+        }
+        p{
+            color: #fff;
+            font-size: 1rem;
+            line-height: 1.625em;
+            font-weight: 300;
+        }
+        button{
+            width: 100%;
+            padding: 0.3125rem;
+            border: 0px none;
+            font-size: 0.75rem;
+            font-weight: 800;
+            background-color: rgb(204, 204, 204);
+            color: rgb(26, 26, 26);
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+    .about_movie_info{
+        padding: 2rem;
+        flex: 1 1 0%;
+        background-color: rgb(25, 25, 25);
+        .about_movie_single{
+            margin-bottom: 25px;
+            h4{
+                margin: 0px 0px 0.5rem;
+                font-size: 1.5625rem;
+                color: rgb(255, 255, 255);
+                text-transform: uppercase;
+                font-weight: 800;
+            }
+            p{
+                font-size: 1rem;
+                color: #fff;
+                font-weight: 300;
+                margin-bottom: 0;
+            }
+            .social_links{
+                a{
+                    font-size: 25px;
+                    color: #fff;
+                    margin-right: 10px;
+                    &:hover{
+                        color: rgb(23, 120, 242);
+                    }
+                }
+            }
+        }
+    }
+}

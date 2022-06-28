@@ -1,0 +1,48 @@
+.bradcam_bg_1{
+    background-image: url(../img/breadcam_bg.png);
+}
+
+.breadcrumb_area{
+    background-size: cover;
+    height: 560px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: flex;
+    align-items: center;
+    @media #{$tab}{
+        height: 400px;
+    }
+    .breadcam_wrap{
+        text-align: center;
+        h3{
+            font-size: 60px;
+            font-weight: 400;
+            line-height: 70px;
+            @media #{$tab} {
+                font-size: 35px;
+                line-height: 45px;
+            }
+        }
+    }
+}
+
+.custom_breadcam{
+    background: transparent ;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 10px 0;
+    .breadcrumb-item, a{
+        font-size: 18px;
+        font-weight: 400;
+        color: #333333;
+        text-transform: capitalize;
+    }
+    .breadcrumb-item + .breadcrumb-item {
+        padding-left: 5px;
+    }
+    .breadcrumb-item + .breadcrumb-item::before {
+        padding-right: 5px;
+        color: #333333;
+        content: "/";
+    }
+}

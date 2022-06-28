@@ -1,0 +1,589 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Shapla Media</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="canonical" href="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:locale" content="bn_BD" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image:alt" content="Shapla Media" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image"
+        content="http://127.0.0.1:8000/assets/frontend/images/social.png" />
+<meta property="fb:pages" content="" />
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://127.0.0.1:8000/img/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="http://127.0.0.1:8000/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/css/magnific-popup.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/css/slick.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/css/themify-icons.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/css/flaticon.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/css/nice-select.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/css/animate.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/css/slicknav.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8000/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QX8RWTGY6K"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QX8RWTGY6K');
+    </script>
+
+    
+
+</head>
+
+<body>
+
+    <!-- HEADER::START -->
+    <header style=" background-color: #0e0e0e; ">
+    <div id="sticky-header" class="header_area ">
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="header__left">
+          <div class="logo_img">
+              <a href="http://127.0.0.1:8000">
+                  <img class="logos" src="http://127.0.0.1:8000/img/shapla/logo.png" style=""; alt="shapla media">
+              </a>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse main_menu text-left  " id="navbarSupportedContent">   
+          <ul class="navbar-nav mr-auto" id="mobile-menu">
+            <li class="nav-item ">
+              <a  href="http://127.0.0.1:8000/media">
+                  <span>Movies</span>
+              </a>
+            </li>         
+            <li class="nav-item">
+              <a href="http://127.0.0.1:8000/about-us">
+                  <span>About</span>
+              </a>
+           </li>
+            
+            <li class="nav-item">
+              <a href="http://127.0.0.1:8000/contact">
+                  <span>Contact Us</span>
+              </a>
+            </li>          
+          </ul>
+          <ul>
+            <li class="nav-item" >
+              <a href="https://cinebaz.com/" class="">
+                  <span>Visit Cinebaz</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+</header>    <!--/ HEADER::END -->
+
+    <!-- BANNER::START  -->
+    
+    <!-- BANNER::END  -->
+
+    <!-- UP_ICON  -->
+    <!--  -->
+    <div id="app" style="">
+          <!-- BANNER::START  -->
+  <div class="banner_area">
+    <div class="banner_carousel owl-carousel" >
+          
+        <div class="single_carousel" style="background-image: url('http://127.0.0.1:8000/uploads/banner/1418136306bikhub1.webp');">
+            <div class="banner_text banner-overly">
+                <h3 v-if="'Bikkhov'">Bikkhov</h3>
+                                <div>
+                    <p>Coming soon on Cinebaz</p>
+                </div>
+                <div class="banner_cta">
+                    <a v-if="''" href="" class="theme_btn">Watch on Cinebaz</a>
+                                    </div>
+            </div>
+        </div>
+          
+        <div class="single_carousel" style="background-image: url('http://127.0.0.1:8000/uploads/banner/48283465valo1.webp');">
+            <div class="banner_text banner-overly">
+                <h3 v-if="'Pagoler Moto Valobashi'">Pagoler Moto Valobashi</h3>
+                                <div>
+                    <p>Coming soon on Cinebaz</p>
+                </div>
+                <div class="banner_cta">
+                    <a v-if="''" href="" class="theme_btn">Watch on Cinebaz</a>
+                                    </div>
+            </div>
+        </div>
+          
+        <div class="single_carousel" style="background-image: url('http://127.0.0.1:8000/uploads/banner/1851799219august1975_banner1.webp');">
+            <div class="banner_text banner-overly">
+                <h3 v-if="'August 1975'">August 1975</h3>
+                                <div>
+                    <p>August 1975 is an  Bangladeshi political drama film based on the immediate aftermath of assassination of Sheikh Mujibur Rahman. The film is produced by Selim Khan whose production company operates as Shapla Media International Ltd.</p>
+                </div>
+                <div class="banner_cta">
+                    <a v-if="'https://cinebaz.com/show/august-1975'" href="https://cinebaz.com/show/august-1975" class="theme_btn">Watch on Cinebaz</a>
+                                    </div>
+            </div>
+        </div>
+          
+        <div class="single_carousel" style="background-image: url('http://127.0.0.1:8000/uploads/banner/1532097999miyaVai1.webp');">
+            <div class="banner_text banner-overly">
+                <h3 v-if="'Tungi Parar Mia Bhai'">Tungi Parar Mia Bhai</h3>
+                                <h3 v-else>Tungi Parar Mia Bhai</h3>
+                                <div>
+                    <p>The film Mia Bhai from Tungipara depicts various notable events of his childhood &amp; adolescence from the birth of Sheikh Mujibur Rahman...</p>
+                </div>
+                <div class="banner_cta">
+                    <a v-if="'https://cinebaz.com/details/tungi-parar-mia-bhai'" href="https://cinebaz.com/details/tungi-parar-mia-bhai" class="theme_btn">Watch on Cinebaz</a>
+                                        <a href="http://127.0.0.1:8000/media/tungi-parar-mia-bhai" class="theme_btn">More Details</a>
+                                    </div>
+            </div>
+        </div>
+         
+    </div>
+</div>
+  <!-- BANNER::END  -->
+  <!-- movie_list_area ::start  -->
+  <div class="container-fluid">
+    <div class="movie_list_area">
+        <div class="section__title up_movie">
+            <h3>Upcoming Movies </h3>
+        </div>
+        <div class="row mr-0 ml-0">
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/kidnap">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/421169789kidnap1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                <h3>
+                            <a class="font-weight-bold mov_nam" href="#">
+                                Kidnap
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/Bidrohi">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/138756261bidrohi1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Romantic</span>
+                                                    <span class="cat_list">Action</span>
+                                                <h3>
+                            <a class="font-weight-bold mov_nam" href="#">
+                                Bidrohi
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/Bubujan">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/94353609bubujan1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                <h3>
+                            <a class="font-weight-bold mov_nam" href="#">
+                                Bubujan
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/noor">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/1932269306nur1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                <h3>
+                            <a class="font-weight-bold mov_nam" href="#">
+                                Noor
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/Cokkor">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/2076479571chokkor1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Thiller</span>
+                                                <h3>
+                            <a class="font-weight-bold mov_nam" href="#">
+                                Cokkor
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/Agnibina">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/1654709160ognibina1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Romantic</span>
+                                                <h3>
+                            <a class="font-weight-bold mov_nam" href="#">
+                                Agnibina
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/chuti">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/639716016chuti1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                <h3>
+                            <a class="font-weight-bold mov_nam" href="#">
+                                Chuti
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/live">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/1002768871live1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Thiller</span>
+                                                <h3>
+                            <a class="font-weight-bold mov_nam" href="#">
+                                Live
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/mafia">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/371743127mafia1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Action</span>
+                                                <h3>
+                            <a class="font-weight-bold mov_nam" href="#">
+                                Mafia
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/bikkhob">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/1373435015bikkhob1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Action</span>
+                                                <h3>
+                            <a class="font-weight-bold mov_nam" href="#">
+                                Bikkhob
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</div> 
+  
+  <div class="movie_list_area">
+    <div class="section__title tr_movie">
+        <h3>Trending Movies</h3>
+    </div>
+    <div class="container-fluid">
+        <div class="row mr-0 ml-0">
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/tungi-parar-mia-bhai">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/1791684602mia_bhai1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Biopic</span>
+                                                <h3>
+                            <a class="font-weight-bold" style="font-size: 20px;" href="#">
+                                Tungi Parar Mia Bhai
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/august-1975">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/713727044august1975_1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Political Drama</span>
+                                                <h3>
+                            <a class="font-weight-bold" style="font-size: 20px;" href="#">
+                                August 1975
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/chittagainga-powa-noakhailla-maiya">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/464768628aa1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Commedy</span>
+                                                    <span class="cat_list">Romantic</span>
+                                                <h3>
+                            <a class="font-weight-bold" style="font-size: 20px;" href="#">
+                                Chittagainga Powa Noakhailla Maiya
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/prem-chor">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/1701524560prem-chor1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Romantic</span>
+                                                <h3>
+                            <a class="font-weight-bold" style="font-size: 20px;" href="#">
+                                Prem Chor
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/Shahenshah">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/2049837091sahensha1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Action</span>
+                                                <h3>
+                            <a class="font-weight-bold" style="font-size: 20px;" href="#">
+                                Shahenshah
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/captain-khan">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/1178217109captan_khan1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Action</span>
+                                                <h3>
+                            <a class="font-weight-bold" style="font-size: 20px;" href="#">
+                                Captain Khan
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/chokh">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/266123479chokh1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Romantic</span>
+                                                    <span class="cat_list">Thiller</span>
+                                                <h3>
+                            <a class="font-weight-bold" style="font-size: 20px;" href="#">
+                                Chokh
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/ami-neta-hobo">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/178953730ami-neta-hobo1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Romantic</span>
+                                                    <span class="cat_list">Action</span>
+                                                <h3>
+                            <a class="font-weight-bold" style="font-size: 20px;" href="#">
+                                Ami Neta Hobo
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/boy-friend">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/2042698298boyfriend1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Romantic</span>
+                                                <h3>
+                            <a class="font-weight-bold" style="font-size: 20px;" href="#">
+                                Boy Friend
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+             
+                <div class="col-lg-2 res">
+                    <a class="up-img"href="http://127.0.0.1:8000/media/pagoler-moto-valobashi">
+                        
+                        <img class="img_detail p-sm-1 lazyImages" src="http://127.0.0.1:8000/uploads/ptmovie/2085522991valobasa1.webp" data-src="image-to-lazy-load-1x.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="" style="width: 100%; margin-left: 10px;">
+                    </a>
+                    <div class="movie_metal">
+                                                    <span class="cat_list">Romantic</span>
+                                                <h3>
+                            <a class="font-weight-bold" style="font-size: 20px;" href="#">
+                                Pagoler Moto Valobashi
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</div> 
+  <!-- BANNER::END  -->
+  
+
+        <a title="Go to Top" href="#" class="gototop">
+            <i class="ti-angle-up"></i>
+        </a>
+    </div>
+
+    <footer>
+    <div class="footer_top_area">
+        <div class="copy_right_text">
+            <div class="logo">
+                
+                <img class="logos" src="http://127.0.0.1:8000/img/shapla/logo.png"; alt="shapla media">
+            </div>
+            <p>TM & © 2021 Shapla Media. Entertainment Inc. All rights reserved.</p>
+        </div>
+        <div class="footer_top_right">
+            <span class="foloow_text">
+                Follow Us
+            </span>
+            <div class="social_links">
+                <a href="https://www.facebook.com/shaplamediafilm/">
+                    <i class="ti-facebook"></i>
+                </a>
+                <a href="https://youtube.com/c/ShaplaMedia">
+                    <i class="ti-youtube"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+    <!--/ UP_ICON -->
+
+    <!--ALL JS SCRIPTS -->
+    <script src="http://127.0.0.1:8000/js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="http://127.0.0.1:8000/js/vendor/popper.min.js"></script>
+    <script src="http://127.0.0.1:8000/js/vendor/bootstrap.min.js"></script>
+
+    <script src="http://127.0.0.1:8000/js/owl.carousel.min.js"></script>
+    <script src="http://127.0.0.1:8000/js/isotope.pkgd.min.js"></script>
+    <script src="http://127.0.0.1:8000/js/waypoints.min.js"></script>
+    <script src="http://127.0.0.1:8000/js/jquery.counterup.min.js"></script>
+    <script src="http://127.0.0.1:8000/js/imagesloaded.pkgd.min.js"></script>
+    <script src="http://127.0.0.1:8000/js/slick.min.js"></script>    
+    <script src="http://127.0.0.1:8000/js/wow.min.js"></script>
+    <script src="http://127.0.0.1:8000/js/nice-select.min.js"></script>
+    <script src="http://127.0.0.1:8000/js/barfiller.js"></script>
+    <script src="http://127.0.0.1:8000/js/jquery.slicknav.js"></script>
+    <script src="http://127.0.0.1:8000/js/jquery.magnific-popup.min.js"></script>
+    <script src="http://127.0.0.1:8000/js/jquery.ajaxchimp.min.js"></script>
+    <script src="http://127.0.0.1:8000/js/parallax.js"></script>
+    <script src="https://unpkg.com/vue@latest"></script>
+    <script src="https://unpkg.com/vue-slick-carousel"></script>
+    
+    <!-- MAIN JS   -->
+    <script src="http://127.0.0.1:8000/js/main.js"></script>
+
+        <script>       
+        new Vue({
+            el: '#app',
+        })
+    </script>
+ 
+ <script>    
+   $('.banner_carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        items: 1,
+        autoplay: true,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+        nav: true,
+        dots: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 1000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            767: {
+                items: 1
+            },
+            992: {
+                items: 1
+            },
+            1200: {
+                items: 1
+            }
+        }
+    });
+    
+</script> 
+  
+
+    <style>
+            </style>
+   
+    
+
+</body>
+
+</html>

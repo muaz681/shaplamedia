@@ -1,0 +1,6220 @@
+
+/* 1. Theme default css */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* line 4, G:/laragon/www/movie/scss/_reset.scss */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: 400;
+    background: rgb(23, 23, 23);
+
+}
+
+.content {
+    margin-top: 3.4em;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/* line 10, G:/laragon/www/movie/scss/_reset.scss */
+
+.img {
+    max-width: 100%;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+/* line 14, G:/laragon/www/movie/scss/_reset.scss */
+
+a,
+.button,
+button {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+/* line 19, G:/laragon/www/movie/scss/_reset.scss */
+
+a:focus,
+.button:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+
+/* line 24, G:/laragon/www/movie/scss/_reset.scss */
+
+a:focus {
+    text-decoration: none;
+}
+
+
+/* line 27, G:/laragon/www/movie/scss/_reset.scss */
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+    text-decoration: none;
+}
+
+
+/* line 34, G:/laragon/www/movie/scss/_reset.scss */
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+
+/* line 37, G:/laragon/www/movie/scss/_reset.scss */
+
+a,
+button {
+    color: #fff;
+    outline: medium none;
+}
+
+
+/* line 42, G:/laragon/www/movie/scss/_reset.scss */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Montserrat", sans-serif;
+    color: #071a3c;
+}
+
+
+/* line 46, G:/laragon/www/movie/scss/_reset.scss */
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+
+/* line 55, G:/laragon/www/movie/scss/_reset.scss */
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* line 59, G:/laragon/www/movie/scss/_reset.scss */
+
+li {
+    list-style: none;
+}
+
+
+/* line 62, G:/laragon/www/movie/scss/_reset.scss */
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4b4b4b;
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* line 71, G:/laragon/www/movie/scss/_reset.scss */
+
+label {
+    color: #7e7e7e;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* line 77, G:/laragon/www/movie/scss/_reset.scss */
+
+*::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+/* line 82, G:/laragon/www/movie/scss/_reset.scss */
+
+::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+/* line 87, G:/laragon/www/movie/scss/_reset.scss */
+
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+/* line 92, G:/laragon/www/movie/scss/_reset.scss */
+
+*::-webkit-input-placeholder {
+    color: #cccccc;
+    font-size: 14px;
+    opacity: 1;
+}
+
+
+/* line 97, G:/laragon/www/movie/scss/_reset.scss */
+
+*:-ms-input-placeholder {
+    color: #cccccc;
+    font-size: 14px;
+    opacity: 1;
+}
+
+
+/* line 102, G:/laragon/www/movie/scss/_reset.scss */
+
+*::-ms-input-placeholder {
+    color: #cccccc;
+    font-size: 14px;
+    opacity: 1;
+}
+
+
+/* line 107, G:/laragon/www/movie/scss/_reset.scss */
+
+*::placeholder {
+    color: #cccccc;
+    font-size: 14px;
+    opacity: 1;
+}
+
+
+/* button style */
+
+
+/* line 115, G:/laragon/www/movie/scss/_reset.scss */
+
+.owl-carousel .owl-nav div {
+    height: 40px;
+    left: 0px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    right: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+    font-size: 20px;
+    color: #c7cfd2;
+    transform: translateY(-50%);
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    border-radius: 0%;
+    color: rgba(255, 255, 255, 0.7);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* line 137, G:/laragon/www/movie/scss/_reset.scss */
+
+.owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: 0px;
+}
+
+
+/* line 151, G:/laragon/www/movie/scss/_reset.scss */
+
+.owl-carousel:hover .owl-nav div {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* line 162, G:/laragon/www/movie/scss/_reset.scss */
+
+.slider-nav .slick-arrow {
+    height: 40px;
+    left: 0px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    right: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+    font-size: 20px;
+    color: #c7cfd2;
+    transform: translateY(-50%);
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    border-radius: 0%;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 0;
+    z-index: 10;
+}
+
+
+/* line 183, G:/laragon/www/movie/scss/_reset.scss */
+
+.slider-nav .slick-arrow.slick-next {
+    left: auto;
+    right: 0px;
+}
+
+
+/* line 190, G:/laragon/www/movie/scss/_reset.scss */
+
+.mb-85 {
+    margin-bottom: 85px;
+}
+
+@media  (max-width: 575.98px) {
+    /* line 190, G:/laragon/www/movie/scss/_reset.scss */
+    .mb-85 {
+        margin-bottom: 30px;
+    }
+}
+@media  (min-width: 411px) and (max-width: 575.98px) {
+    /* line 190, G:/laragon/www/movie/scss/_reset.scss */
+    .img_res {
+        height: 550px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 190, G:/laragon/www/movie/scss/_reset.scss */
+    .mb-85 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 190, G:/laragon/www/movie/scss/_reset.scss */
+    .mb-85 {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* line 202, G:/laragon/www/movie/scss/_reset.scss */
+
+.mb-65 {
+    margin-bottom: 65px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 202, G:/laragon/www/movie/scss/_reset.scss */
+    .mb-65 {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* line 208, G:/laragon/www/movie/scss/_reset.scss */
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+
+/* line 211, G:/laragon/www/movie/scss/_reset.scss */
+
+.mb_10 {
+    margin-bottom: 10px;
+}
+
+
+/* line 214, G:/laragon/www/movie/scss/_reset.scss */
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+
+/* line 217, G:/laragon/www/movie/scss/_reset.scss */
+
+.mb_25 {
+    margin-bottom: 25px;
+}
+
+
+/* line 220, G:/laragon/www/movie/scss/_reset.scss */
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+
+
+/* line 223, G:/laragon/www/movie/scss/_reset.scss */
+
+.mb_35 {
+    margin-bottom: 35px;
+}
+
+
+/* line 226, G:/laragon/www/movie/scss/_reset.scss */
+
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+
+/* line 229, G:/laragon/www/movie/scss/_reset.scss */
+
+.mb_50 {
+    margin-bottom: 50px;
+}
+
+
+/* line 232, G:/laragon/www/movie/scss/_reset.scss */
+
+.mb_60 {
+    margin-bottom: 60px;
+}
+
+
+/* line 235, G:/laragon/www/movie/scss/_reset.scss */
+
+.mb_70 {
+    margin-bottom: 70px;
+}
+
+
+/* line 238, G:/laragon/www/movie/scss/_reset.scss */
+
+.mb_80 {
+    margin-bottom: 80px;
+}
+
+
+/* line 242, G:/laragon/www/movie/scss/_reset.scss */
+
+.mt_10 {
+    margin-top: 10px;
+}
+
+
+/* line 245, G:/laragon/www/movie/scss/_reset.scss */
+
+.mt_20 {
+    margin-top: 20px;
+}
+
+
+/* line 248, G:/laragon/www/movie/scss/_reset.scss */
+
+.mt_10 {
+    margin-top: 10px;
+}
+
+
+/* line 251, G:/laragon/www/movie/scss/_reset.scss */
+
+.mt_30 {
+    margin-top: 30px;
+}
+
+
+/* line 254, G:/laragon/www/movie/scss/_reset.scss */
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+
+/* line 257, G:/laragon/www/movie/scss/_reset.scss */
+
+.mt_50 {
+    margin-top: 50px;
+}
+
+
+/* line 260, G:/laragon/www/movie/scss/_reset.scss */
+
+.mt_60 {
+    margin-top: 60px;
+}
+
+
+/* line 263, G:/laragon/www/movie/scss/_reset.scss */
+
+.mt_70 {
+    margin-top: 70px;
+}
+
+
+/* line 267, G:/laragon/www/movie/scss/_reset.scss */
+
+.mb_27 {
+    margin-bottom: 27px;
+}
+
+
+/* line 271, G:/laragon/www/movie/scss/_reset.scss */
+
+.mr_20 {
+    margin-right: 20px;
+}
+
+
+/* line 274, G:/laragon/www/movie/scss/_reset.scss */
+
+.mr_30 {
+    margin-right: 30px;
+}
+
+
+/* line 277, G:/laragon/www/movie/scss/_reset.scss */
+
+.mr_40 {
+    margin-right: 40px;
+}
+
+
+/* line 280, G:/laragon/www/movie/scss/_reset.scss */
+
+.mr_50 {
+    margin-right: 50px;
+}
+
+
+/* line 286, G:/laragon/www/movie/scss/_reset.scss */
+
+.xl_mb_60 {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+    /* line 286, G:/laragon/www/movie/scss/_reset.scss */
+    .xl_mb_60 {
+        margin-bottom: 60px;
+    }
+}
+
+
+/* line 293, G:/laragon/www/movie/scss/_reset.scss */
+
+#back-top {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    cursor: pointer;
+    z-index: 9999999;
+    display: none;
+}
+
+
+/* line 300, G:/laragon/www/movie/scss/_reset.scss */
+
+#back-top a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    line-height: 40px;
+    background: #0E0E0E;
+    font-size: 15px;
+    border-radius: 30px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(14, 14, 14, 0.02);
+    -moz-box-shadow: 0px 10px 20px 0px rgba(14, 14, 14, 0.02);
+    box-shadow: 0px 10px 20px 0px rgba(14, 14, 14, 0.02);
+}
+
+@media (min-width: 1300px) {
+    /* line 316, G:/laragon/www/movie/scss/_reset.scss */
+    .container {
+        max-width: 1200px;
+    }
+}
+
+
+/* line 322, G:/laragon/www/movie/scss/_reset.scss */
+
+.section_spacing {
+    padding: 150px 0 120px 0;
+}
+
+@media (max-width: 767.98px) {
+    /* line 322, G:/laragon/www/movie/scss/_reset.scss */
+    .section_spacing {
+        padding: 75px 0 45px 0;
+    }
+}
+
+
+/* line 328, G:/laragon/www/movie/scss/_reset.scss */
+
+.section_spacing2 {
+    padding: 120px 0 120px 0;
+}
+
+@media (max-width: 767.98px) {
+    /* line 328, G:/laragon/www/movie/scss/_reset.scss */
+    .section_spacing2 {
+        padding: 45px 0 45px 0;
+    }
+}
+
+
+/* line 334, G:/laragon/www/movie/scss/_reset.scss */
+
+.section_spacing3 {
+    padding: 150px 0 114px 0;
+}
+
+@media (max-width: 767.98px) {
+    /* line 334, G:/laragon/www/movie/scss/_reset.scss */
+    .section_spacing3 {
+        padding: 75px 0 39px 0;
+    }
+
+}
+
+
+/* line 340, G:/laragon/www/movie/scss/_reset.scss */
+
+.section_spacing4 {
+    padding: 144px 0 115px 0;
+}
+
+@media (max-width: 767.98px) {
+    /* line 340, G:/laragon/www/movie/scss/_reset.scss */
+    .section_spacing4 {
+        padding: 69px 0 40px 0;
+    }
+}
+
+
+/* line 346, G:/laragon/www/movie/scss/_reset.scss */
+
+.section_spacing5 {
+    padding: 144px 0 120px 0;
+}
+
+@media (max-width: 767.98px) {
+    /* line 346, G:/laragon/www/movie/scss/_reset.scss */
+    .section_spacing5 {
+        padding: 69px 0 45px 0;
+    }
+}
+
+
+/* line 352, G:/laragon/www/movie/scss/_reset.scss */
+
+.owl-dots {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    bottom: 12px;
+}
+
+
+/* line 360, G:/laragon/www/movie/scss/_reset.scss */
+
+.owl-dots .owl-dot {
+    margin: 0 5px;
+}
+
+
+/* line 362, G:/laragon/www/movie/scss/_reset.scss */
+
+.owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    border-radius: 0px;
+    background: #d9e3e3;
+    display: inline-block;
+    transition: .3s;
+}
+
+
+/* line 369, G:/laragon/www/movie/scss/_reset.scss */
+
+.owl-dots .owl-dot span:hover {
+    transform: scale(0.8);
+}
+
+
+/* line 374, G:/laragon/www/movie/scss/_reset.scss */
+
+.owl-dots .owl-dot.active span {
+    background: #0078d6;
+}
+
+
+/* line 381, G:/laragon/www/movie/scss/_reset.scss */
+
+.font_10 {
+    font-size: 10px;
+}
+
+
+/* line 384, G:/laragon/www/movie/scss/_reset.scss */
+
+.font_15 {
+    font-size: 15px;
+}
+
+
+/* line 387, G:/laragon/www/movie/scss/_reset.scss */
+
+.font_18 {
+    font-size: 18px;
+}
+
+
+/* line 390, G:/laragon/www/movie/scss/_reset.scss */
+
+.font_20 {
+    font-size: 20px;
+}
+
+
+/* line 393, G:/laragon/www/movie/scss/_reset.scss */
+
+.font_25 {
+    font-size: 25px;
+}
+
+
+/* line 396, G:/laragon/www/movie/scss/_reset.scss */
+
+.font_30 {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 396, G:/laragon/www/movie/scss/_reset.scss */
+    .font_30 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
+
+/* line 404, G:/laragon/www/movie/scss/_reset.scss */
+
+.font_40 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 404, G:/laragon/www/movie/scss/_reset.scss */
+    .font_40 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
+
+/* line 412, G:/laragon/www/movie/scss/_reset.scss */
+
+.font_45 {
+    font-size: 45px;
+}
+
+
+/* line 415, G:/laragon/www/movie/scss/_reset.scss */
+
+.font_50 {
+    font-size: 50px;
+}
+
+
+/* line 418, G:/laragon/www/movie/scss/_reset.scss */
+
+.font_60 {
+    font-size: 60px;
+}
+
+
+/* line 421, G:/laragon/www/movie/scss/_reset.scss */
+
+.font_70 {
+    font-size: 70px;
+}
+
+
+/* line 424, G:/laragon/www/movie/scss/_reset.scss */
+
+.font_80 {
+    font-size: 80px;
+}
+
+
+/* line 429, G:/laragon/www/movie/scss/_reset.scss */
+
+.f_w_300 {
+    font-weight: 300;
+}
+
+
+/* line 432, G:/laragon/www/movie/scss/_reset.scss */
+
+.f_w_400 {
+    font-weight: 400;
+}
+
+
+/* line 435, G:/laragon/www/movie/scss/_reset.scss */
+
+.f_w_500 {
+    font-weight: 500;
+}
+
+
+/* line 438, G:/laragon/www/movie/scss/_reset.scss */
+
+.f_w_600 {
+    font-weight: 600;
+}
+
+
+/* line 441, G:/laragon/www/movie/scss/_reset.scss */
+
+.f_w_700 {
+    font-weight: 700;
+}
+
+
+/* line 445, G:/laragon/www/movie/scss/_reset.scss */
+
+.dot_devide {
+    display: inline-block !important;
+}
+
+
+/* line 449, G:/laragon/www/movie/scss/_reset.scss */
+
+.max_width_500 {
+    max-width: 500px;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_btn.scss */
+
+.theme_btn {
+    background: #fff;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    padding: 10px 25px;
+	line-height: 24px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+@media (max-width: 575.98px) {
+    /* line 1, G:/laragon/www/movie/scss/_btn.scss */
+    .theme_btn {
+        padding: 15px 16px;
+    }
+}
+
+
+/* line 16, G:/laragon/www/movie/scss/_btn.scss */
+
+.theme_btn:hover {
+    color: #000;
+    border-color: #fff;
+    background: #fff;
+}
+
+
+/* line 22, G:/laragon/www/movie/scss/_btn.scss */
+
+.theme_btn2 {
+    background: #ffd500;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    color: #071a3c;
+    font-weight: 500;
+    padding: 22px 22px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 1;
+}
+
+@media (max-width: 575.98px) {
+    /* line 22, G:/laragon/www/movie/scss/_btn.scss */
+    .theme_btn2 {
+        padding: 15px 16px;
+    }
+}
+
+
+/* line 38, G:/laragon/www/movie/scss/_btn.scss */
+
+.theme_btn2:hover {
+    color: #ffd500;
+    border-color: #ffd500;
+    background: transparent;
+}
+
+
+/* line 44, G:/laragon/www/movie/scss/_btn.scss */
+
+.theme_btn3 {
+    background: #071a3c;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    color: #ffd500;
+    font-weight: 500;
+    padding: 17px 30px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 1;
+}
+
+@media (max-width: 575.98px) {
+    /* line 44, G:/laragon/www/movie/scss/_btn.scss */
+    .theme_btn3 {
+        padding: 15px 16px;
+    }
+}
+
+
+/* line 60, G:/laragon/www/movie/scss/_btn.scss */
+
+.theme_btn3:hover {
+    color: #071a3c;
+    border-color: #071a3c;
+    background: transparent;
+}
+
+
+/* line 66, G:/laragon/www/movie/scss/_btn.scss */
+
+.play_btn {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #071a3c;
+    border: 2px solid #071a3c;
+    font-size: 14px;
+    transition: .3s;
+}
+
+
+/* line 77, G:/laragon/www/movie/scss/_btn.scss */
+
+.play_btn.large_play_btn {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 77, G:/laragon/www/movie/scss/_btn.scss */
+    .play_btn.large_play_btn {
+        width: 85px;
+        height: 85px;
+        line-height: 85px;
+    }
+}
+
+
+/* line 86, G:/laragon/www/movie/scss/_btn.scss */
+
+.play_btn.large_play_btn i {
+    font-size: 30px;
+    line-height: 100px;
+    position: relative;
+    top: -3px;
+    left: 1px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 86, G:/laragon/www/movie/scss/_btn.scss */
+    .play_btn.large_play_btn i {
+        line-height: 85px;
+        top: 0;
+    }
+}
+
+
+/* line 98, G:/laragon/www/movie/scss/_btn.scss */
+
+.play_btn:hover {
+    background: #071a3c;
+    color: #fff;
+}
+
+
+/* line 102, G:/laragon/www/movie/scss/_btn.scss */
+
+.play_btn i {
+    font-size: 14px;
+    position: relative;
+    top: -1px;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+@media (max-width: 767.98px) {
+    /* line 2, G:/laragon/www/movie/scss/_title.scss */
+    .section__title.mb_80 {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* line 8, G:/laragon/www/movie/scss/_title.scss */
+
+.section__title.white_text h3 {
+    color: #fff;
+}
+
+
+/* line 12, G:/laragon/www/movie/scss/_title.scss */
+
+.section__title>span {
+    font-size: 16px;
+    color: #4b4b4b;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+
+/* line 20, G:/laragon/www/movie/scss/_title.scss */
+
+.section__title h3 {
+    font-size: 2.5rem;
+    padding-left: 1.375rem;
+    border-left: 0.1rem solid rgba(142, 142, 142, 0.8);
+    font-size: 1.875rem;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+    color:white;
+    margin-bottom: 33px;
+    /* margin-left: 17px; */
+}
+.section__title {
+    font-size: 2.5rem;
+    padding-left: 1.375rem;
+    border-left: 0.1rem solid rgba(142, 142, 142, 0.8);
+    font-size: 1.875rem;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+    color:white;
+    margin-bottom: 33px;
+    /* margin-left: 17px; */
+}
+
+.section__title h3.light {
+    color: #ffffff;
+}
+
+
+/* line 30, G:/laragon/www/movie/scss/_title.scss */
+
+.section__title h3.large_title {
+    font-size: 50px;
+    line-height: 65px;
+    padding-top: 7px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 30, G:/laragon/www/movie/scss/_title.scss */
+    .section__title h3.large_title {
+        font-size: 38px;
+        line-height: 50px;
+
+    }
+    /* .smt{
+        margin-top: 71px;
+    } */
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 30, G:/laragon/www/movie/scss/_title.scss */
+    .section__title h3.large_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* line 30, G:/laragon/www/movie/scss/_title.scss */
+    .section__title h3.large_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 20, G:/laragon/www/movie/scss/_title.scss */
+    .section__title h3 {
+        font-size: 38px;
+        line-height: 53px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 20, G:/laragon/www/movie/scss/_title.scss */
+    .section__title h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* line 60, G:/laragon/www/movie/scss/_title.scss */
+    .section__title h3 br {
+        display: none;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* line 20, G:/laragon/www/movie/scss/_title.scss */
+    .section__title h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+
+
+/* line 74, G:/laragon/www/movie/scss/_title.scss */
+
+.section__title h4 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: #1c1c1c;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 74, G:/laragon/www/movie/scss/_title.scss */
+    .section__title h4 {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 74, G:/laragon/www/movie/scss/_title.scss */
+    .section__title h4 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* line 88, G:/laragon/www/movie/scss/_title.scss */
+    .section__title h4 br {
+        display: none;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* line 74, G:/laragon/www/movie/scss/_title.scss */
+    .section__title h4 {
+        font-size: 26px;
+    }
+}
+
+
+/* line 99, G:/laragon/www/movie/scss/_title.scss */
+
+.section__title.section_title2 h3 {
+    margin-bottom: 18px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+
+/* line 104, G:/laragon/www/movie/scss/_title.scss */
+
+.section__title.section_title2 p {
+    line-height: 1.67;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 8px;
+    color: #4b4b4b;
+}
+
+@media (max-width: 575.98px) {
+    /* line 111, G:/laragon/www/movie/scss/_title.scss */
+    .section__title.section_title2 p br {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 111, G:/laragon/www/movie/scss/_title.scss */
+    .section__title.section_title2 p br {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 111, G:/laragon/www/movie/scss/_title.scss */
+    .section__title.section_title2 p br {
+        display: none;
+    }
+}
+
+
+/* line 130, G:/laragon/www/movie/scss/_title.scss */
+
+.section__title_2 h3 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.29;
+}
+
+
+/* line 134, G:/laragon/www/movie/scss/_title.scss */
+
+.section__title_2 h3 span {
+    color: #4543de;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 130, G:/laragon/www/movie/scss/_title.scss */
+    .section__title_2 h3 {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 130, G:/laragon/www/movie/scss/_title.scss */
+    .section__title_2 h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* line 144, G:/laragon/www/movie/scss/_title.scss */
+    .section__title_2 h3 br {
+        display: none;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* line 130, G:/laragon/www/movie/scss/_title.scss */
+    .section__title_2 h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}
+
+
+/* line 158, G:/laragon/www/movie/scss/_title.scss */
+
+.section_title_3 h3 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.29;
+}
+
+
+/* line 162, G:/laragon/www/movie/scss/_title.scss */
+
+.section_title_3 h3 span {
+    color: #4543de;
+}
+
+@media (max-width: 991px) {
+    .contactt {
+        padding: 50px;
+        margin-top: 32px;
+    }
+    /* .container .contactInfo .box {
+        margin-left: -55px;
+    } */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 158, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_3 h3 {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 158, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_3 h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* line 172, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_3 h3 br {
+        display: none;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* line 158, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_3 h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}
+
+
+/* line 182, G:/laragon/www/movie/scss/_title.scss */
+
+.section_title_3 p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #505050;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 189, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_3 p br {
+        display: none;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* line 194, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_3 p br {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 194, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_3 p br {
+        display: none;
+    }
+}
+
+
+/* line 207, G:/laragon/www/movie/scss/_title.scss */
+
+.section_title_4 h3 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.29;
+    color: #0B0B21;
+}
+
+
+/* line 212, G:/laragon/www/movie/scss/_title.scss */
+
+.section_title_4 h3 span {
+    color: #4543de;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 207, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_4 h3 {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 207, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_4 h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* line 222, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_4 h3 br {
+        display: none;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* line 207, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_4 h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}
+
+
+/* line 232, G:/laragon/www/movie/scss/_title.scss */
+
+.section_title_4 p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #505050;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 239, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_4 p br {
+        display: none;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* line 244, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_4 p br {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 244, G:/laragon/www/movie/scss/_title.scss */
+    .section_title_4 p br {
+        display: none;
+    }
+}
+
+
+/* line 255, G:/laragon/www/movie/scss/_title.scss */
+
+.pl-80 {
+    padding-left: 80px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 255, G:/laragon/www/movie/scss/_title.scss */
+    .pl-80 {
+        padding-left: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 255, G:/laragon/www/movie/scss/_title.scss */
+    .pl-80 {
+        padding-left: 30px;
+    }
+}
+
+
+/* line 264, G:/laragon/www/movie/scss/_title.scss */
+
+.pl-100 {
+    padding-left: 100px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 264, G:/laragon/www/movie/scss/_title.scss */
+    .pl-100 {
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 264, G:/laragon/www/movie/scss/_title.scss */
+    .pl-100 {
+        padding-left: 30px;
+    }
+}
+
+
+/* line 274, G:/laragon/www/movie/scss/_title.scss */
+
+.mb-90 {
+    margin-bottom: 82px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 274, G:/laragon/www/movie/scss/_title.scss */
+    .mb-90 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 274, G:/laragon/www/movie/scss/_title.scss */
+    .mb-90 {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* line 284, G:/laragon/www/movie/scss/_title.scss */
+
+.pl-65 {
+    padding-left: 65px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 284, G:/laragon/www/movie/scss/_title.scss */
+    .pl-65 {
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 284, G:/laragon/www/movie/scss/_title.scss */
+    .pl-65 {
+        padding-left: 0px;
+    }
+}
+
+
+/* line 294, G:/laragon/www/movie/scss/_title.scss */
+
+.pb-180 {
+    padding-bottom: 180px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 294, G:/laragon/www/movie/scss/_title.scss */
+    .pb-180 {
+        padding-bottom: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 294, G:/laragon/www/movie/scss/_title.scss */
+    .pb-180 {
+        padding-bottom: 100px;
+    }
+}
+
+
+/* line 304, G:/laragon/www/movie/scss/_title.scss */
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+@media (max-width: 1200px) {
+    /* line 3, G:/laragon/www/movie/scss/_animation.scss */
+    [class*="hero-ani-"] {
+        display: none !important;
+    }
+}
+
+
+/* line 8, G:/laragon/www/movie/scss/_animation.scss */
+
+.amination_custom {
+    backface-visibility: hidden;
+    animation: jumping 9s ease-in-out 2s infinite alternate;
+    animation-delay: 1s;
+    transition: all .9s ease 5s;
+    user-select: none;
+}
+
+
+/* line 16, G:/laragon/www/movie/scss/_animation.scss */
+
+.amination_custom2 {
+    backface-visibility: hidden;
+    animation: jumping2 9s ease-in-out 2s infinite alternate;
+    animation-delay: 1s;
+    transition: all 1s ease 3s;
+    user-select: none;
+}
+
+
+/* line 24, G:/laragon/www/movie/scss/_animation.scss */
+
+.amination_custom3 {
+    backface-visibility: hidden;
+    animation: jumping3 9s ease-in-out 2s infinite alternate;
+    animation-delay: 1s;
+    transition: all 7s ease 2s;
+    user-select: none;
+}
+
+
+/* line 32, G:/laragon/www/movie/scss/_animation.scss */
+
+.amination_custom4 {
+    backface-visibility: hidden;
+    animation: jumping4 9s ease-in-out 2s infinite alternate;
+    animation-delay: 1s;
+    transition: all 8s ease 4s;
+    user-select: none;
+}
+
+
+/* line 40, G:/laragon/www/movie/scss/_animation.scss */
+
+.amination_custom10 {
+    backface-visibility: hidden;
+    animation: jumping10 9s ease-in-out 2s infinite alternate;
+    animation-delay: 1s;
+    transition: all 8s ease 4s;
+    user-select: none;
+}
+
+
+/* line 48, G:/laragon/www/movie/scss/_animation.scss */
+
+.amination_custom11 {
+    backface-visibility: hidden;
+    animation: jumping11 9s ease-in-out 2s infinite alternate;
+    animation-delay: 1s;
+    transition: all 8s ease 4s;
+    user-select: none;
+}
+
+@keyframes jumping {
+    0% {
+        transform: translateY(0px) translateX(0) rotate(0) scale(1);
+        opacity: .8;
+    }
+    25% {
+        transform: translateY(-10px) translateX(-10px) rotate(20deg) scale(0.8);
+        opacity: .9;
+    }
+    50% {
+        transform: translateY(-15px) translateX(-15px) rotate(10deg) scale(0.9);
+        opacity: .8;
+    }
+    75% {
+        transform: translateY(-20px) translateX(-20px) rotate(20deg) scale(0.75);
+        opacity: .6;
+    }
+    85% {
+        transform: translateY(-25px) translateX(-25px) rotate(20deg) scale(0.9);
+        opacity: .7;
+    }
+    100% {
+        transform: translateY(-15px) translateX(-15px) rotate(0) scale(0.95);
+        opacity: .85;
+    }
+}
+
+@keyframes jumping2 {
+    0% {
+        transform: translateY(0px) translateX(0) rotate(0) scale(1);
+        opacity: .5;
+    }
+    25% {
+        transform: translateY(-30px) translateX(10px) rotate(20deg) scale(0.8);
+        opacity: .8;
+    }
+    50% {
+        transform: translateY(15px) translateX(-15px) rotate(10deg) scale(0.7);
+        opacity: .8;
+    }
+    75% {
+        transform: translateY(30px) translateX(20px) rotate(20deg) scale(0.75);
+        opacity: .7;
+    }
+    100% {
+        transform: translateY(-15px) translateX(15px) rotate(0) scale(0.75);
+        opacity: .9;
+    }
+}
+
+@keyframes jumping3 {
+    0% {
+        transform: translateY(10px) translateX(0) rotate(0) scale(1);
+        opacity: .9;
+    }
+    20% {
+        transform: translateY(20px) translateX(10px) rotate(-20deg) scale(0.8);
+        opacity: .8;
+    }
+    40% {
+        transform: translateY(15px) translateX(-15px) rotate(10deg) scale(0.75);
+        opacity: .8;
+    }
+    40% {
+        transform: translateY(-15px) translateX(-25px) rotate(10deg) scale(0.5);
+        opacity: 1;
+    }
+    80% {
+        transform: translateY(-30px) translateX(20px) rotate(-20deg) scale(0.75);
+        opacity: .6;
+    }
+    100% {
+        transform: translateY(15px) translateX(15px) rotate(0) scale(0.95);
+        opacity: .7;
+    }
+}
+
+@keyframes jumping4 {
+    0% {
+        transform: translateY(-30px) translateX(20px) rotate(0) scale(1.2);
+        opacity: .7;
+    }
+    25% {
+        transform: translateY(-20px) translateX(10px) rotate(50deg) scale(0.6);
+        opacity: .8;
+    }
+    50% {
+        transform: translateY(15px) translateX(-15px) rotate(20deg) scale(0.5);
+        opacity: .9;
+    }
+    75% {
+        transform: translateY(30px) translateX(20px) rotate(50deg) scale(0.75);
+        opacity: .7;
+    }
+    100% {
+        transform: translateY(-15px) translateX(15px) rotate(0) scale(0.5);
+        opacity: .9;
+    }
+}
+
+@keyframes jumping10 {
+    0% {
+        transform: rotate(180deg);
+        display: block;
+    }
+    100% {
+        transform: rotate(30deg);
+        display: block;
+    }
+}
+
+@keyframes jumping11 {
+    0% {
+        transform: rotate(180deg) translate(-20px, 20px);
+        display: block;
+    }
+    100% {
+        transform: rotate(30deg) translate(0px, 0px);
+        display: block;
+    }
+}
+
+
+/*----------------------------------------------------*/
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                              main theme style                              */
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area {
+    padding: 0px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #0e0e0e;
+}
+
+
+
+/* line 9, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area svg {
+    width: 1.25rem;
+    fill: #fff;
+
+}
+
+
+/* line 13, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .logo_img svg {
+    width: 1.5625rem;
+}
+
+.logos {
+    padding: 5px;
+    height: 55px;
+    width: auto;
+}
+
+
+/* line 16, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area.header_static {
+    position: relative;
+    padding: 0px 35px 0 35px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 16, G:/laragon/www/movie/scss/_header.scss */
+    .header_area.header_static {
+        padding: 10px 0px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 16, G:/laragon/www/movie/scss/_header.scss */
+    .header_area.header_static {
+        padding: 10px 0px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    /* line 1, G:/laragon/www/movie/scss/_header.scss */
+    .header_area {
+        padding: 10px 0px;
+    }
+    .nv-right{
+        margin-left: 1.4rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 1, G:/laragon/www/movie/scss/_header.scss */
+    .header_area {
+        padding: 10px 0px;
+    }
+}
+
+
+/* line 33, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .header__wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: space-between;
+}
+
+
+/* line 63, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .main_menu {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+
+/* line 67, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .main_menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+
+/* line 73, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .main_menu ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px 23px;
+    padding: 15.5px 0;
+    display: inline-block;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* line 82, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .main_menu ul li a svg {
+    width: 1.25rem;
+    fill: #fff;
+    margin-right: 5px;
+}
+
+
+/* line 87, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .main_menu ul li a:hover,
+.header_area .main_menu ul li a.active {
+    color: #fff;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 73, G:/laragon/www/movie/scss/_header.scss */
+    .header_area .main_menu ul li a {
+        font-size: 15px;
+        margin: 0 15px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    /* line 73, G:/laragon/www/movie/scss/_header.scss */
+    .header_area .main_menu ul li a {
+        margin: 0 15px;
+    }
+}
+
+
+/* line 99, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .main_menu ul li .submenu {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 120%;
+    background: #fff;
+    text-align: left;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.04);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+/* line 110, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .main_menu ul li .submenu li {
+    display: block;
+    margin: 0;
+}
+
+
+/* line 114, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .main_menu ul li .submenu li a {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #071a3c;
+    padding: 0;
+    font-weight: 400;
+    display: block;
+    margin: 0;
+    padding: 10px 20px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+    text-transform: capitalize;
+    left: 0;
+}
+
+
+/* line 127, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .main_menu ul li .submenu li a.active,
+.header_area .main_menu ul li .submenu li a:hover {
+    color: #fff;
+}
+
+
+/* line 130, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .main_menu ul li .submenu li a:hover {
+    left: 5px;
+    color: #fff;
+}
+
+
+/* line 138, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .main_menu ul li:hover>a {
+    color: #fff;
+}
+
+
+/* line 141, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .main_menu ul li:hover .submenu {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* line 150, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .contact_wrap {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+@media (max-width: 575.98px) {
+    /* line 150, G:/laragon/www/movie/scss/_header.scss */
+    .header_area .contact_wrap {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 150, G:/laragon/www/movie/scss/_header.scss */
+    .header_area .contact_wrap {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 150, G:/laragon/www/movie/scss/_header.scss */
+    .header_area .contact_wrap {
+        display: none !important;
+    }
+}
+
+
+/* line 164, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .contact_wrap .mobile_no p {
+    color: #505050;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* line 171, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .contact_wrap .mobile_no p span a {
+    color: #627ae4;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    /* line 164, G:/laragon/www/movie/scss/_header.scss */
+    .header_area .contact_wrap .mobile_no p {
+        font-size: 13px;
+        margin-right: 8px;
+    }
+}
+
+
+/* line 182, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .contact_wrap .signin a.sign_in {
+    font-size: 16px;
+    color: #505050;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 182, G:/laragon/www/movie/scss/_header.scss */
+    .header_area .contact_wrap .signin a.sign_in {
+        margin-right: 15px;
+    }
+}
+
+
+/* line 190, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .contact_wrap .signin a.sign_in:hover {
+    color: #4543DE;
+}
+
+
+/* line 195, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .contact_wrap .search_btn {
+    margin-left: 25px;
+}
+
+
+/* line 197, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area .contact_wrap .search_btn button {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* line 205, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area.navbar_fixed {
+    background: #0e0e0e;
+    z-index: 90;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    transform: translateY(70px);
+    transition: transform 500ms ease, background 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+}
+
+
+/* line 224, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area.navbar_fixed .main_menu ul li a {
+    padding: 30px 0;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 235, G:/laragon/www/movie/scss/_header.scss */
+    .header_area.header_area2 .main_menu ul li a {
+        margin: 0 22px;
+    }
+}
+
+
+/* line 239, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area.header_area2 .main_menu ul li a:hover {
+    color: #4543de;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 243, G:/laragon/www/movie/scss/_header.scss */
+    .header_area.header_area2 .theme_btn3 {
+        font-size: 14px;
+        padding: 12px 13px;
+    }
+}
+
+
+/* line 254, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area.header_area2 .main_menu ul li:hover>a {
+    color: #4543de;
+}
+
+
+/* line 262, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area.header_area2 .header__wrapper .header__left {
+    -ms-flex-preferred-size: 15%;
+    flex-basis: 15%;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 262, G:/laragon/www/movie/scss/_header.scss */
+    .header_area.header_area2 .header__wrapper .header__left {
+        -ms-flex-preferred-size: 15%;
+        flex-basis: 15%;
+    }
+}
+
+
+/* line 270, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area.header_area2 .header__wrapper .main_menu {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 270, G:/laragon/www/movie/scss/_header.scss */
+    .header_area.header_area2 .header__wrapper .main_menu {
+        -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+    }
+}
+
+
+/* line 278, G:/laragon/www/movie/scss/_header.scss */
+
+.header_area.header_area2 .header__wrapper .header__right {
+    -ms-flex-preferred-size: 35%;
+    flex-basis: 35%;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 278, G:/laragon/www/movie/scss/_header.scss */
+    .header_area.header_area2 .header__wrapper .header__right {
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+    }
+}
+
+
+/* line 293, G:/laragon/www/movie/scss/_header.scss */
+
+.contact_wrap .input-group.search_fild {
+    position: absolute;
+    width: calc(100% - 110px);
+    top: 5px;
+    height: 45px;
+    border-radius: 0;
+    margin-right: 35px;
+    transform: scaleX(0);
+    transition: .3s;
+    transform-origin: right center 0px;
+}
+
+
+/* line 303, G:/laragon/www/movie/scss/_header.scss */
+
+.contact_wrap .input-group.search_fild .input-group-prepend {
+    border-radius: 0;
+    border: 0 !important;
+}
+
+
+/* line 306, G:/laragon/www/movie/scss/_header.scss */
+
+.contact_wrap .input-group.search_fild .input-group-prepend .input-group-text {
+    border-radius: 0;
+    background-color: #f2f2f2;
+    font-size: 20px;
+}
+
+
+/* line 312, G:/laragon/www/movie/scss/_header.scss */
+
+.contact_wrap .input-group.search_fild input {
+    height: 45px;
+    border-radius: 0;
+    box-shadow: none !important;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* line 319, G:/laragon/www/movie/scss/_header.scss */
+
+.contact_wrap .input-group.search_fild input::placeholder {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* line 326, G:/laragon/www/movie/scss/_header.scss */
+
+.contact_wrap.active .input-group.search_fild {
+    width: calc(100% - 110px);
+    transform: scaleX(1);
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.slicknav_menu .slicknav_icon {
+    margin-right: 6px;
+    margin-top: 3px;
+    padding-bottom: 3px;
+    position: absolute;
+    top: 5px;
+}
+
+
+/* line 9, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.slicknav_nav a {
+    font-size: 14px;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+
+/* line 17, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.slicknav_nav .slicknav_row,
+.slicknav_nav a {
+    padding: 9.5px 15px;
+    margin: 0;
+}
+
+
+/* line 22, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.slicknav_arrow {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 37px;
+    text-align: center;
+    line-height: 40px;
+    top: 0;
+}
+
+
+/* line 31, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.slicknav_nav li {
+    display: block;
+    border-bottom: none;
+    position: relative;
+}
+
+
+/* line 37, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.mobile_menu .slicknav_nav ul.submenu {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background: #f7f7f7;
+}
+
+
+/* line 44, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.mobile_menu .slicknav_nav ul.submenu li a {
+    font-size: 16px;
+}
+
+
+/* line 49, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.mobile_menu .slicknav_nav .slicknav_arrow {
+    margin: 0;
+}
+
+
+/* line 54, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.slicknav_nav .slicknav_row:hover {
+    color: #fff;
+}
+
+
+/* line 57, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.slicknav_nav a:hover {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    background: transparent;
+    color: #fff;
+}
+
+
+/* line 65, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #fff !important;
+    height: 2px;
+    margin: 5px 0;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 25px;
+    position: relative;
+}
+
+
+/* line 75, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.slicknav_menu .slicknav_icon {
+    margin-right: 0px;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
+
+/* line 81, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.mobile_menu {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 9999999;
+}
+
+
+/* line 87, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.slicknav_btn {
+    right: 12px;
+}
+
+
+/* line 90, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.slicknav_nav {
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 5px 7px 0 rgba(13, 0, 36, 0.07);
+    padding: 15px 6px;
+    margin-top: 10px;
+}
+
+
+/* line 97, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.slicknav_nav .slicknav_row,
+.slicknav_nav a {
+    padding: 6.5px 20px;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* line 102, G:/laragon/www/movie/scss/_mobile_menu.scss */
+
+.slicknav_nav .slicknav_row,
+.slicknav_nav a {
+    padding: 6.5px 20px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_menu_animation.scss */
+
+.slicknav_btn {
+    padding: 0px;
+    border: 0px;
+}
+
+
+/* line 6, G:/laragon/www/movie/scss/_menu_animation.scss */
+
+.slicknav_btn .slicknav_icon-bar {
+    background-color: #ff4357;
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+    display: block;
+    width: 22px;
+    height: 2px;
+}
+
+
+/* line 16, G:/laragon/www/movie/scss/_menu_animation.scss */
+
+.home_2 .slicknav_btn .slicknav_icon-bar {
+    background-color: #4543de;
+}
+
+
+/* line 20, G:/laragon/www/movie/scss/_menu_animation.scss */
+
+.slicknav_btn .slicknav_icon-bar+.slicknav_icon-bar {
+    margin-top: 5px;
+}
+
+
+/* line 24, G:/laragon/www/movie/scss/_menu_animation.scss */
+
+.slicknav_btn .slicknav_icon-bar:nth-child(2) {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+
+/* line 31, G:/laragon/www/movie/scss/_menu_animation.scss */
+
+.slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(2) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+/* line 37, G:/laragon/www/movie/scss/_menu_animation.scss */
+
+.slicknav_btn .slicknav_icon-bar:nth-child(3) {
+    opacity: 1;
+}
+
+
+/* line 42, G:/laragon/www/movie/scss/_menu_animation.scss */
+
+.slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(3) {
+    opacity: 0;
+}
+
+
+/* line 46, G:/laragon/www/movie/scss/_menu_animation.scss */
+
+.slicknav_btn .slicknav_icon-bar:nth-child(1) {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    top: 0;
+}
+
+
+/* line 53, G:/laragon/www/movie/scss/_menu_animation.scss */
+
+.slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 7px;
+    position: relative;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 3, G:/laragon/www/movie/scss/_banner.scss */
+
+.single_carousel::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, rgb(0 0 0 / 83%) 0%, rgb(20 20 20 / 55%) 35%, rgb(0 0 0 / 0%) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+}
+
+.single_carousel {
+    position: relative;
+}
+
+.single_carousel>* {
+    z-index: 9;
+    position: relative;
+    /* background-color: #0c0c0c7a; */
+}
+
+
+
+.banner_area .single_carousel {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    padding: 2.75rem;
+}
+
+
+/* line 12, G:/laragon/www/movie/scss/_banner.scss */
+
+.banner_area .banner_text {
+    border-left: 0.1rem solid rgba(255, 255, 255, 0.4);
+    padding-left: 2.75rem;
+    margin-bottom: 50px;
+}
+
+
+/* line 15, G:/laragon/www/movie/scss/_banner.scss */
+
+.banner_area .banner_text h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+
+/* line 26, G:/laragon/www/movie/scss/_banner.scss */
+
+.banner_area .banner_text p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.1875rem;
+    margin: 7px 0 14px 0;
+
+}
+.banner_text{
+    width: 50%;
+    text-align: justify;
+}
+
+
+/* line 34, G:/laragon/www/movie/scss/_banner.scss */
+
+.banner_area .banner_text .banner_cta a:not(:last-child) {
+    margin-right: 16px;
+}
+
+
+/* line 41, G:/laragon/www/movie/scss/_banner.scss */
+
+.banner_bg_1 {
+    background-image: url(../img/banner/banner_bg_1.png);
+}
+
+.banner_bg_t {
+    background-image: url(../img/banner/tungi.jpg);
+}
+
+
+/* line 45, G:/laragon/www/movie/scss/_banner.scss */
+
+.banner_bg_2 {
+    background-image: url(../img/banner/banner_bg_2.png);
+}
+
+
+/* line 48, G:/laragon/www/movie/scss/_banner.scss */
+
+.banner_bg_3 {
+    background-image: url(../img/banner/banner_bg_3.png);
+}
+
+
+/* line 51, G:/laragon/www/movie/scss/_banner.scss */
+
+.banner_bg_4 {
+    background-image: url(../img/banner/banner_bg_4.png);
+}
+
+
+/* line 56, G:/laragon/www/movie/scss/_banner.scss */
+
+.video_play_screen .play_button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* line 61, G:/laragon/www/movie/scss/_banner.scss */
+
+.video_play_screen .play_button svg {
+    width: 68px;
+    height: 48px;
+    color: #fff;
+}
+
+
+/* line 67, G:/laragon/www/movie/scss/_banner.scss */
+
+.video_play_screen .play_button svg:hover>path:first-child {
+    fill: red;
+    fill-opacity: 1;
+}
+
+
+/* line 74, G:/laragon/www/movie/scss/_banner.scss */
+
+.subheader_menu {
+    /* margin-top: 20rem; */
+    /* margin-top: 10rem; */
+    background: #1A1A1A;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* line 79, G:/laragon/www/movie/scss/_banner.scss */
+
+
+
+
+/* line 81, G:/laragon/www/movie/scss/_banner.scss */
+
+.subheader_menu .subheader_menu_left .iFDqQu {
+    position: relative;
+    -moz-box-align: center;
+    align-items: center;
+    margin-right: 20px;
+    font-weight: 800;
+    background-color: white;
+    color: #005aa3;
+    z-index: 2;
+    padding: 0px 0px 0px 20px;
+}
+
+
+/* line 92, G:/laragon/www/movie/scss/_banner.scss */
+
+.subheader_menu .subheader_menu_left .iFDqQu::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 0px;
+    padding: 0px;
+    left: 15px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 15px solid white;
+}
+
+
+/* line 104, G:/laragon/www/movie/scss/_banner.scss */
+
+.subheader_menu .subheader_menu_left .kBMRXs {
+    position: relative;
+    -moz-box-align: center;
+    align-items: center;
+    margin-right: 20px;
+    font-weight: 800;
+    background-color: white;
+    color: #005aa3;
+    z-index: 1;
+    padding: 0px 0px 0px 35px;
+    margin-left: -15px;
+}
+
+
+/* line 116, G:/laragon/www/movie/scss/_banner.scss */
+
+.subheader_menu .subheader_menu_left .kBMRXs::before {
+    content: "";
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 15px solid #1A1A1A;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+
+/* line 125, G:/laragon/www/movie/scss/_banner.scss */
+
+.subheader_menu .subheader_menu_left .kBMRXs:after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 0px;
+    padding: 0px;
+    left: 15px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 15px solid white;
+}
+
+
+/* line 138, G:/laragon/www/movie/scss/_banner.scss */
+
+.subheader_menu .subheader_menu_right {
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+
+/* line 148, G:/laragon/www/movie/scss/_banner.scss */
+
+.subheader_menu .subheader_menu_right li a {
+    padding: 9.5px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+@media (max-width: 991.98px) {
+    /* line 1, G:/laragon/www/movie/scss/_about.scss */
+    .about_area {
+        padding-top: 75px;
+    }
+}
+
+
+/* line 5, G:/laragon/www/movie/scss/_about.scss */
+
+.about_area .about_thumb {
+    position: relative;
+    left: -50px;
+}
+
+@media (max-width: 991.98px) {
+    /* line 5, G:/laragon/www/movie/scss/_about.scss */
+    .about_area .about_thumb {
+        left: 0;
+    }
+}
+
+
+/* line 11, G:/laragon/www/movie/scss/_about.scss */
+
+.about_area .about_thumb img {
+    width: 100%;
+}
+
+
+/* line 15, G:/laragon/www/movie/scss/_about.scss */
+
+.about_area .about_wrapper {
+    padding-top: 151px;
+    padding-bottom: 150px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 15, G:/laragon/www/movie/scss/_about.scss */
+    .about_area .about_wrapper {
+        padding-top: 40px;
+        padding-bottom: 75px;
+    }
+}
+
+
+/* line 25, G:/laragon/www/movie/scss/_about.scss */
+
+.about_area .about_wrapper_inner .about_info p {
+    font-size: 20px;
+    color: #071a3c;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* line 31, G:/laragon/www/movie/scss/_about.scss */
+
+.about_area .about_wrapper_inner .about_info .about_cta {
+    margin-top: 57px;
+}
+
+
+/* line 33, G:/laragon/www/movie/scss/_about.scss */
+
+.about_area .about_wrapper_inner .about_info .about_cta .about_cta_inner {
+    display: flex;
+}
+
+
+/* line 35, G:/laragon/www/movie/scss/_about.scss */
+
+.about_area .about_wrapper_inner .about_info .about_cta .about_cta_inner .icon {
+    margin-right: 30px;
+}
+
+
+/* line 39, G:/laragon/www/movie/scss/_about.scss */
+
+.about_area .about_wrapper_inner .about_info .about_cta .about_cta_inner .about_cta_text h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #071a3c;
+}
+
+
+/* line 44, G:/laragon/www/movie/scss/_about.scss */
+
+.about_area .about_wrapper_inner .about_info .about_cta .about_cta_inner .about_cta_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4b4b4b;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* line 58, G:/laragon/www/movie/scss/_about.scss */
+
+.horizontal_line {
+    background: #ffd500;
+    width: 70px;
+    height: 2px;
+    display: inline-block;
+    flex: 70px 0 0;
+}
+
+
+/* line 68, G:/laragon/www/movie/scss/_about.scss */
+
+.about_page_warapper .about_text {
+    position: relative;
+    top: -13px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 68, G:/laragon/www/movie/scss/_about.scss */
+    .about_page_warapper .about_text {
+        top: 0;
+    }
+}
+
+
+/* line 74, G:/laragon/www/movie/scss/_about.scss */
+
+.about_page_warapper .about_text p {
+    margin-top: 28px;
+    margin-bottom: 71px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 74, G:/laragon/www/movie/scss/_about.scss */
+    .about_page_warapper .about_text p {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* line 85, G:/laragon/www/movie/scss/_about.scss */
+    .pr_xl_70 {
+        padding-right: 70px;
+    }
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_services.scss */
+
+.services_area {
+    padding: 150px 0 93px 0;
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 767.98px) {
+    /* line 1, G:/laragon/www/movie/scss/_services.scss */
+    .services_area {
+        padding: 75px 0 45px 0;
+    }
+}
+
+
+/* line 9, G:/laragon/www/movie/scss/_services.scss */
+
+.services_area::before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    right: 0px;
+    top: 0;
+    bottom: 0;
+    background: #f1faf6;
+    z-index: -1;
+}
+
+@media (min-width: 1800px) {
+    /* line 9, G:/laragon/www/movie/scss/_services.scss */
+    .services_area::before {
+        left: 160px;
+        right: 160px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    /* line 9, G:/laragon/www/movie/scss/_services.scss */
+    .services_area::before {
+        left: 0;
+        right: 0;
+    }
+}
+
+
+/* line 28, G:/laragon/www/movie/scss/_services.scss */
+
+.services_area .service_slide .single_service_slide {
+    border-radius: 20px;
+    box-shadow: 0px 2px 9.8px 0.2px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    padding: 60px 30px 70px 30px;
+    margin-bottom: 35px;
+}
+
+
+/* line 34, G:/laragon/www/movie/scss/_services.scss */
+
+.services_area .service_slide .single_service_slide .thumb {
+    margin: auto;
+    max-width: 75px;
+}
+
+
+/* line 37, G:/laragon/www/movie/scss/_services.scss */
+
+.services_area .service_slide .single_service_slide .thumb img {
+    width: auto;
+}
+
+
+/* line 41, G:/laragon/www/movie/scss/_services.scss */
+
+.services_area .service_slide .single_service_slide h4 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #071a3c;
+    margin-bottom: 10px;
+    margin-top: 37px;
+}
+
+
+/* line 48, G:/laragon/www/movie/scss/_services.scss */
+
+.services_area .service_slide .single_service_slide p {
+    font-size: 16px;
+    color: #4b4b4b;
+    line-height: 30px;
+}
+
+
+/* line 57, G:/laragon/www/movie/scss/_services.scss */
+
+.service__banner {
+    padding-top: 150px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 57, G:/laragon/www/movie/scss/_services.scss */
+    .service__banner {
+        padding-top: 75px;
+    }
+}
+
+
+/* line 62, G:/laragon/www/movie/scss/_services.scss */
+
+.service__banner .services__banner_grid {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+
+/* line 63, G:/laragon/www/movie/scss/_services.scss */
+
+.service__banner .services__banner_grid .thumb {
+    background-image: url(../img/service_page/bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 767.98px) {
+    /* line 63, G:/laragon/www/movie/scss/_services.scss */
+    .service__banner .services__banner_grid .thumb {
+        height: 400px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /* line 62, G:/laragon/www/movie/scss/_services.scss */
+    .service__banner .services__banner_grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* line 77, G:/laragon/www/movie/scss/_services.scss */
+
+.service__banner .services__banner_grid .services__info {
+    background-color: #fff;
+    box-shadow: 0px 2px 9.8px 0.2px rgba(0, 0, 0, 0.05);
+    padding: 78px 30px 87px 86px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 77, G:/laragon/www/movie/scss/_services.scss */
+    .service__banner .services__banner_grid .services__info {
+        padding: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 77, G:/laragon/www/movie/scss/_services.scss */
+    .service__banner .services__banner_grid .services__info {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 77, G:/laragon/www/movie/scss/_services.scss */
+    .service__banner .services__banner_grid .services__info {
+        padding: 35px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    /* line 77, G:/laragon/www/movie/scss/_services.scss */
+    .service__banner .services__banner_grid .services__info {
+        padding: 45px;
+    }
+}
+
+
+/* line 95, G:/laragon/www/movie/scss/_services.scss */
+
+.service__banner .single_service__wiz {
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 9.8px 0.2px rgba(0, 0, 0, 0.05);
+    padding: 60px 25px 53px 25px;
+}
+
+
+/* line 103, G:/laragon/www/movie/scss/_services.scss */
+
+.service__banner .single_service__wiz h3 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #071a3c;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 2, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .chose__img_wrap {
+    padding-right: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+}
+
+@media (max-width: 767.98px) {
+    /* line 2, G:/laragon/www/movie/scss/_chose.scss */
+    .chose_area .chose__img_wrap {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+}
+
+
+/* line 13, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .chose__img_wrap .single_chose_img .chose_thumb:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+
+/* line 19, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .chose__img_wrap .chose_thumb img {
+    width: 100%;
+}
+
+
+/* line 23, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .chose__img_wrap .chose_thumb.boreder_1 img {
+    border-radius: 0px 20px 0px 20px;
+}
+
+
+/* line 28, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .chose__img_wrap .chose_thumb.boreder_2 img {
+    border-radius: 20px 0px 20px 0px;
+}
+
+
+/* line 33, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .chose__img_wrap .chose_thumb.boreder_3 img {
+    border-radius: 20px 0px 20px 0px;
+}
+
+
+/* line 38, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .chose__img_wrap .chose_thumb.boreder_4 img {
+    border-radius: 0px 20px 20px 20px;
+}
+
+
+/* line 46, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .about_wrapper_inner .about_info p {
+    font-size: 16px;
+    color: #4b4b4b;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* line 52, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .about_wrapper_inner .about_info .about_cta {
+    margin-top: 44px;
+}
+
+
+/* line 54, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .about_wrapper_inner .about_info .about_cta .chose_cta_inner {
+    display: flex;
+}
+
+
+/* line 56, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .about_wrapper_inner .about_info .about_cta .chose_cta_inner:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+
+/* line 59, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .about_wrapper_inner .about_info .about_cta .chose_cta_inner .icon {
+    margin-right: 30px;
+}
+
+
+/* line 63, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .about_wrapper_inner .about_info .about_cta .chose_cta_inner .about_cta_text h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #071a3c;
+}
+
+
+/* line 68, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_area .about_wrapper_inner .about_info .about_cta .chose_cta_inner .about_cta_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4b4b4b;
+    line-height: 30px;
+}
+
+
+/* line 84, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_about_wrapper .chose_about_info {
+    padding-left: 15px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 84, G:/laragon/www/movie/scss/_chose.scss */
+    .chose_about_wrapper .chose_about_info {
+        padding-left: 0;
+    }
+}
+
+
+/* line 92, G:/laragon/www/movie/scss/_chose.scss */
+
+.chose_about_wrapper .chose_about_info p {
+    margin-top: 28px;
+    margin-bottom: 36px;
+}
+
+
+/* line 105, G:/laragon/www/movie/scss/_chose.scss */
+
+.single_progressbar h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 18px;
+    color: #071a3c;
+}
+
+
+/* line 112, G:/laragon/www/movie/scss/_chose.scss */
+
+.single_progressbar .barfiller span {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* line 120, G:/laragon/www/movie/scss/_chose.scss */
+
+.barfiller {
+    width: 100%;
+    height: 5px;
+    background: #f0f0f0;
+    position: relative;
+    margin-bottom: 25px;
+    border-radius: 0px;
+}
+
+
+/* line 127, G:/laragon/www/movie/scss/_chose.scss */
+
+.barfiller .fill {
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 100%;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+
+/* line 135, G:/laragon/www/movie/scss/_chose.scss */
+
+.barfiller .tipWrap {
+    display: none;
+}
+
+
+/* line 138, G:/laragon/www/movie/scss/_chose.scss */
+
+.barfiller .tip {
+    margin-top: -38px;
+    padding: 0;
+    color: #000;
+    left: 0px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_features.scss */
+
+.features_area {
+    padding-bottom: 79px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 1, G:/laragon/www/movie/scss/_features.scss */
+    .features_area {
+        padding-bottom: 38px;
+    }
+}
+
+
+/* line 6, G:/laragon/www/movie/scss/_features.scss */
+
+.features_area .single_feature {
+    margin-bottom: 63px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 6, G:/laragon/www/movie/scss/_features.scss */
+    .features_area .single_feature {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* line 11, G:/laragon/www/movie/scss/_features.scss */
+
+.features_area .single_feature .features_thumb {
+    margin-bottom: 25px;
+}
+
+
+/* line 13, G:/laragon/www/movie/scss/_features.scss */
+
+.features_area .single_feature .features_thumb img {
+    width: 100%;
+}
+
+
+/* line 18, G:/laragon/www/movie/scss/_features.scss */
+
+.features_area .single_feature .feature_info span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4b4b4b;
+    display: block;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+
+/* line 26, G:/laragon/www/movie/scss/_features.scss */
+
+.features_area .single_feature .feature_info h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+/* line 32, G:/laragon/www/movie/scss/_features.scss */
+
+.features_area .features_box {
+    display: grid;
+    grid-template-columns: 7fr 4fr;
+    grid-gap: 70px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 32, G:/laragon/www/movie/scss/_features.scss */
+    .features_area .features_box {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 32, G:/laragon/www/movie/scss/_features.scss */
+    .features_area .features_box {
+        grid-gap: 30px;
+    }
+}
+
+
+/* line 43, G:/laragon/www/movie/scss/_features.scss */
+
+.features_area .features_box.features_box_1 {
+    grid-template-columns: 4fr 7fr;
+}
+
+@media (max-width: 767.98px) {
+    /* line 43, G:/laragon/www/movie/scss/_features.scss */
+    .features_area .features_box.features_box_1 {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+}
+
+
+/* line 53, G:/laragon/www/movie/scss/_features.scss */
+
+.features_cta_area {
+    position: relative;
+    padding: 120px 0;
+    z-index: 2;
+}
+
+@media (max-width: 767.98px) {
+    /* line 53, G:/laragon/www/movie/scss/_features.scss */
+    .features_cta_area {
+        padding: 60px 0;
+    }
+}
+
+
+/* line 61, G:/laragon/www/movie/scss/_features.scss */
+
+.features_cta_area .features_cta_inner::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 63%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    z-index: -1;
+    background: #ffd500;
+    opacity: .95;
+}
+
+@media (max-width: 767.98px) {
+    /* line 61, G:/laragon/www/movie/scss/_features.scss */
+    .features_cta_area .features_cta_inner::before {
+        width: 100%;
+    }
+}
+
+
+/* line 78, G:/laragon/www/movie/scss/_features.scss */
+
+.features_cta_area::before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/features/banner.png);
+    left: 0;
+    top: 0;
+    width: 63%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    z-index: -1;
+}
+
+@media (max-width: 767.98px) {
+    /* line 78, G:/laragon/www/movie/scss/_features.scss */
+    .features_cta_area::before {
+        width: 100%;
+    }
+}
+
+
+/* line 93, G:/laragon/www/movie/scss/_features.scss */
+
+.features_cta_area::after {
+    position: absolute;
+    content: '';
+    background-image: url(../img/features/banner2.png);
+    right: 0;
+    top: 0;
+    width: 37%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    z-index: -1;
+    background-position: center center;
+}
+
+@media (max-width: 767.98px) {
+    /* line 93, G:/laragon/www/movie/scss/_features.scss */
+    .features_cta_area::after {
+        display: none;
+    }
+}
+
+
+/* line 109, G:/laragon/www/movie/scss/_features.scss */
+
+.features_cta_area .features_cta_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 767.98px) {
+    /* line 109, G:/laragon/www/movie/scss/_features.scss */
+    .features_cta_area .features_cta_box {
+        flex-direction: column;
+    }
+}
+
+
+/* line 116, G:/laragon/www/movie/scss/_features.scss */
+
+.features_cta_area .features_cta_box .video_play_icon {
+    margin: 30px 0;
+}
+
+
+/* line 119, G:/laragon/www/movie/scss/_features.scss */
+
+.features_cta_area .features_cta_box .features_widget {
+    background: #001a3e;
+    max-width: 620px;
+    padding: 111px 90px 110px 80px;
+    margin-right: 50px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 119, G:/laragon/www/movie/scss/_features.scss */
+    .features_cta_area .features_cta_box .features_widget {
+        max-width: 500px;
+        margin-right: 0;
+        padding: 100px 50px 100px 50px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /* line 119, G:/laragon/www/movie/scss/_features.scss */
+    .features_cta_area .features_cta_box .features_widget {
+        margin-right: 0;
+        padding: 70px 35px;
+    }
+}
+
+
+/* line 133, G:/laragon/www/movie/scss/_features.scss */
+
+.features_cta_area .features_cta_box .features_widget span {
+    font-size: 14px;
+    color: #ffd500;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+}
+
+
+/* line 140, G:/laragon/www/movie/scss/_features.scss */
+
+.features_cta_area .features_cta_box .features_widget h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #fff;
+    margin-bottom: 55px;
+    margin-top: 13px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 140, G:/laragon/www/movie/scss/_features.scss */
+    .features_cta_area .features_cta_box .features_widget h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 2, G:/laragon/www/movie/scss/_pricing.scss */
+
+.pricing_area .single_pricing {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 9.8px 0.2px rgba(0, 0, 0, 0.05);
+    padding: 36px 35px 40px 35px;
+}
+
+
+/* line 7, G:/laragon/www/movie/scss/_pricing.scss */
+
+.pricing_area .single_pricing .pricing_header {
+    text-align: center;
+    border-bottom: 1px solid #eef0f4;
+    padding-bottom: 14px;
+    margin-bottom: 20px;
+}
+
+
+/* line 9, G:/laragon/www/movie/scss/_pricing.scss */
+
+.pricing_area .single_pricing .pricing_header h3 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #071a3c;
+}
+
+
+/* line 18, G:/laragon/www/movie/scss/_pricing.scss */
+
+.pricing_area .single_pricing .pricing_body {
+    text-align: center;
+}
+
+
+/* line 20, G:/laragon/www/movie/scss/_pricing.scss */
+
+.pricing_area .single_pricing .pricing_body h4 {
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #ffd500;
+    text-align: center;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+}
+
+
+/* line 30, G:/laragon/www/movie/scss/_pricing.scss */
+
+.pricing_area .single_pricing .pricing_body h4 span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #001a3e;
+    font-weight: 400;
+}
+
+
+/* line 35, G:/laragon/www/movie/scss/_pricing.scss */
+
+.pricing_area .single_pricing .pricing_body h4 span.sup {
+    position: absolute;
+    top: 10px;
+    left: -13px;
+}
+
+
+/* line 40, G:/laragon/www/movie/scss/_pricing.scss */
+
+.pricing_area .single_pricing .pricing_body h4 span.sub {
+    position: absolute;
+    bottom: 5px;
+    right: -30px;
+}
+
+
+/* line 47, G:/laragon/www/movie/scss/_pricing.scss */
+
+.pricing_area .single_pricing .pricing_body p {
+    font-weight: 400;
+    margin: 12px 0 25px 0;
+}
+
+
+/* line 50, G:/laragon/www/movie/scss/_pricing.scss */
+
+.pricing_area .single_pricing .pricing_body p br {
+    display: inline-block;
+}
+
+
+/* line 59, G:/laragon/www/movie/scss/_pricing.scss */
+
+.bg {
+    position: absolute;
+    left: 375px;
+    top: 6024px;
+    width: 270px;
+    height: 386px;
+    z-index: 70;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_area {
+    padding-bottom: 120px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 1, G:/laragon/www/movie/scss/_blog.scss */
+    .blog_area {
+        padding-bottom: 45px;
+    }
+}
+
+
+/* line 8, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_area .single_blog .blog__thumb img {
+    width: 100%;
+}
+
+
+/* line 13, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_area .single_blog .blog_meta p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4b4b4b;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+
+
+/* line 21, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_area .single_blog .blog_meta h4 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+@media (max-width: 575.98px) {
+    /* line 21, G:/laragon/www/movie/scss/_blog.scss */
+    .blog_area .single_blog .blog_meta h4 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
+
+/* line 35, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_section {
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 35, G:/laragon/www/movie/scss/_blog.scss */
+    .blog_section {
+        padding-top: 75px;
+        padding-bottom: 45px;
+    }
+}
+
+
+/* line 42, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_section .single_blog_wrapper {
+    margin-bottom: 75px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 42, G:/laragon/www/movie/scss/_blog.scss */
+    .blog_section .single_blog_wrapper {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* line 47, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_section .single_blog_wrapper .thumb {
+    margin-bottom: 33px;
+}
+
+
+/* line 50, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_section .single_blog_wrapper .blog_meta {
+    padding-left: 100px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 50, G:/laragon/www/movie/scss/_blog.scss */
+    .blog_section .single_blog_wrapper .blog_meta {
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 50, G:/laragon/www/movie/scss/_blog.scss */
+    .blog_section .single_blog_wrapper .blog_meta {
+        padding-left: 50px;
+    }
+}
+
+
+/* line 58, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_section .single_blog_wrapper .blog_meta span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4b4b4b;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* line 64, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_section .single_blog_wrapper .blog_meta span span {
+    margin: 0 3px;
+}
+
+
+/* line 68, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_section .single_blog_wrapper .blog_meta h3 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #071a3c;
+    margin: 14px 0 24px 0;
+}
+
+@media (max-width: 767.98px) {
+    /* line 68, G:/laragon/www/movie/scss/_blog.scss */
+    .blog_section .single_blog_wrapper .blog_meta h3 {
+        font-size: 25px;
+    }
+}
+
+
+/* line 86, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_details_section .blog_details_single {
+    padding-top: 45px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 86, G:/laragon/www/movie/scss/_blog.scss */
+    .blog_details_section .blog_details_single {
+        padding-top: 30px;
+    }
+}
+
+
+/* line 91, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_details_section .blog_details_single .thumb {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 91, G:/laragon/www/movie/scss/_blog.scss */
+    .blog_details_section .blog_details_single .thumb {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* line 98, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_details_section .blog_details_single .mannerThing_lists h3 {
+    margin-top: 37px;
+    margin-bottom: 42px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 98, G:/laragon/www/movie/scss/_blog.scss */
+    .blog_details_section .blog_details_single .mannerThing_lists h3 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* line 109, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_details_section .blog_details_single .mannerThing_lists .bullet_lists {
+    margin-top: 30px;
+}
+
+
+/* line 113, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_details_section .blog_details_single .quote_widget {
+    border-left: 3px solid #ffe977;
+    padding-left: 45px;
+    margin-bottom: 42px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 113, G:/laragon/www/movie/scss/_blog.scss */
+    .blog_details_section .blog_details_single .quote_widget {
+        padding-left: 25px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* line 121, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_details_section .blog_details_single .quote_widget p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+
+/* line 127, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_details_section .blog_details_single .quote_widget h4 {
+    font-size: 19px;
+    font-weight: 400;
+    color: #001a3e;
+    display: flex;
+    align-items: center;
+}
+
+
+/* line 133, G:/laragon/www/movie/scss/_blog.scss */
+
+.blog_details_section .blog_details_single .quote_widget h4 span {
+    width: 30px;
+    height: 3px;
+    display: inline-block;
+    margin-right: 10px;
+    background: #ffd500;
+}
+
+
+/* line 146, G:/laragon/www/movie/scss/_blog.scss */
+
+.bullet_lists li {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #4b4b4b;
+    position: relative;
+    padding-left: 20px;
+}
+
+
+/* line 153, G:/laragon/www/movie/scss/_blog.scss */
+
+.bullet_lists li span {
+    position: absolute;
+    left: 0;
+    top: 9px;
+    font-size: 10px;
+    display: inline-block;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_bradcam.scss */
+
+.bradcam_bg_1 {
+    background-image: url(../img/breadcam_bg.png);
+}
+
+
+/* line 5, G:/laragon/www/movie/scss/_bradcam.scss */
+
+.breadcrumb_area {
+    background-size: cover;
+    height: 560px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 767.98px) {
+    /* line 5, G:/laragon/www/movie/scss/_bradcam.scss */
+    .breadcrumb_area {
+        height: 400px;
+    }
+}
+
+
+/* line 15, G:/laragon/www/movie/scss/_bradcam.scss */
+
+.breadcrumb_area .breadcam_wrap {
+    text-align: center;
+}
+
+
+/* line 17, G:/laragon/www/movie/scss/_bradcam.scss */
+
+.breadcrumb_area .breadcam_wrap h3 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 17, G:/laragon/www/movie/scss/_bradcam.scss */
+    .breadcrumb_area .breadcam_wrap h3 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+
+/* line 29, G:/laragon/www/movie/scss/_bradcam.scss */
+
+.custom_breadcam {
+    background: transparent;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+
+/* line 34, G:/laragon/www/movie/scss/_bradcam.scss */
+
+.custom_breadcam .breadcrumb-item,
+.custom_breadcam a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: capitalize;
+}
+
+
+/* line 40, G:/laragon/www/movie/scss/_bradcam.scss */
+
+.custom_breadcam .breadcrumb-item+.breadcrumb-item {
+    padding-left: 5px;
+}
+
+
+/* line 43, G:/laragon/www/movie/scss/_bradcam.scss */
+
+.custom_breadcam .breadcrumb-item+.breadcrumb-item::before {
+    padding-right: 5px;
+    color: #333333;
+    content: "/";
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 2, G:/laragon/www/movie/scss/_counter.scss */
+
+.counter_area .single_counter {
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 9.8px 0.2px rgba(0, 0, 0, 0.05);
+    padding: 34px 20px 36px 50px;
+}
+
+
+/* line 7, G:/laragon/www/movie/scss/_counter.scss */
+
+.counter_area .single_counter h3 {
+    font-size: 40px;
+    color: #071a3c;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_testmonial.scss */
+
+.testmonial_area {
+    background: #f1faf6;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* line 5, G:/laragon/www/movie/scss/_testmonial.scss */
+
+.testmonial_area::before {
+    position: absolute;
+    content: '';
+    left: 52.4%;
+    top: 22%;
+    background-image: url(../img/testmonial/doted_bg.png);
+    background-repeat: no-repeat;
+    width: 670px;
+    height: 400px;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+@media (max-width: 767.98px) {
+    /* line 5, G:/laragon/www/movie/scss/_testmonial.scss */
+    .testmonial_area::before {
+        display: none;
+    }
+}
+
+
+/* line 21, G:/laragon/www/movie/scss/_testmonial.scss */
+
+.testmonial_area .section__title {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 21, G:/laragon/www/movie/scss/_testmonial.scss */
+    .testmonial_area .section__title {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* line 27, G:/laragon/www/movie/scss/_testmonial.scss */
+
+.testmonial_area .single_testmonial {
+    background: #fff;
+    border-radius: 10px;
+    padding: 52px 50px 60px 60px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 27, G:/laragon/www/movie/scss/_testmonial.scss */
+    .testmonial_area .single_testmonial {
+        padding: 30px;
+    }
+}
+
+
+/* line 34, G:/laragon/www/movie/scss/_testmonial.scss */
+
+.testmonial_area .single_testmonial p {
+    margin-bottom: 35px;
+}
+
+
+/* line 37, G:/laragon/www/movie/scss/_testmonial.scss */
+
+.testmonial_area .single_testmonial .test_meta {
+    display: flex;
+    align-items: center;
+}
+
+
+/* line 40, G:/laragon/www/movie/scss/_testmonial.scss */
+
+.testmonial_area .single_testmonial .test_meta .thumb {
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+}
+
+
+/* line 44, G:/laragon/www/movie/scss/_testmonial.scss */
+
+.testmonial_area .single_testmonial .test_meta .thumb img {
+    border-radius: 50%;
+}
+
+
+/* line 49, G:/laragon/www/movie/scss/_testmonial.scss */
+
+.testmonial_area .single_testmonial .test_meta .test_name h4 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 3px;
+}
+
+
+/* line 55, G:/laragon/www/movie/scss/_testmonial.scss */
+
+.testmonial_area .single_testmonial .test_meta .test_name span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4b4b4b;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_team.scss */
+
+.team_area {
+    padding: 144px 0 0px 0;
+}
+
+@media (max-width: 767.98px) {
+    /* line 1, G:/laragon/www/movie/scss/_team.scss */
+    .team_area {
+        padding: 69px 0 0px 0;
+    }
+}
+
+
+/* line 7, G:/laragon/www/movie/scss/_team.scss */
+
+.team_area .single_team .thumb {
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+
+/* line 10, G:/laragon/www/movie/scss/_team.scss */
+
+.team_area .single_team .thumb img {
+    width: 100%;
+    transform: scale(1);
+    transition: .3s;
+}
+
+
+/* line 16, G:/laragon/www/movie/scss/_team.scss */
+
+.team_area .single_team h4 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 5px;
+}
+
+
+/* line 26, G:/laragon/www/movie/scss/_team.scss */
+
+.team_area .single_team:hover .thumb img {
+    transform: scale(1.05);
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_contact.scss */
+
+.consultation_area {
+    padding: 110px 0 120px 0;
+}
+
+@media (max-width: 767.98px) {
+    /* line 1, G:/laragon/www/movie/scss/_contact.scss */
+    .consultation_area {
+        padding: 35px 0 45px 0;
+    }
+}
+
+
+/* line 6, G:/laragon/www/movie/scss/_contact.scss */
+
+.consultation_area .grid_form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+}
+
+@media (max-width: 991.98px) {
+    /* line 6, G:/laragon/www/movie/scss/_contact.scss */
+    .consultation_area .grid_form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* line 14, G:/laragon/www/movie/scss/_contact.scss */
+
+.consultation_area .consultation_wrap {
+    padding-left: 15px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 14, G:/laragon/www/movie/scss/_contact.scss */
+    .consultation_area .consultation_wrap {
+        padding-left: 0;
+    }
+}
+
+
+/* line 22, G:/laragon/www/movie/scss/_contact.scss */
+
+.primary_input {
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #eef0f4;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #071a3c;
+    padding: 10px 25px;
+    width: 100%;
+}
+
+
+/* line 32, G:/laragon/www/movie/scss/_contact.scss */
+
+.primary_input::placeholder {
+    font-size: 14px;
+    color: #4b4b4b;
+    text-transform: capitalize;
+}
+
+
+/* line 38, G:/laragon/www/movie/scss/_contact.scss */
+
+.primary_input2 {
+    height: 60px;
+    border-radius: 0px;
+    border: 0;
+    border-bottom: 1px solid #f0e7e2;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #071a3c;
+    padding: 0px 25px 25px 0;
+    width: 100%;
+}
+
+
+/* line 49, G:/laragon/www/movie/scss/_contact.scss */
+
+.primary_input2::placeholder {
+    font-size: 16px;
+    color: #4b4b4b;
+    text-transform: capitalize;
+}
+
+
+/* line 55, G:/laragon/www/movie/scss/_contact.scss */
+
+.primary_textarea {
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid #eef0f4;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #071a3c;
+    padding: 25px;
+    width: 100%;
+}
+
+
+/* line 65, G:/laragon/www/movie/scss/_contact.scss */
+
+.primary_textarea::placeholder {
+    font-size: 14px;
+    color: #4b4b4b;
+    text-transform: capitalize;
+}
+
+
+/* line 71, G:/laragon/www/movie/scss/_contact.scss */
+
+.primary_textarea2 {
+    height: 130px;
+    border-radius: 0px;
+    border: 0;
+    border-bottom: 1px solid #f0e7e2;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #071a3c;
+    padding: 3px 25px 0 0;
+    width: 100%;
+}
+
+
+/* line 82, G:/laragon/www/movie/scss/_contact.scss */
+
+.primary_textarea2::placeholder {
+    font-size: 14px;
+    color: #4b4b4b;
+    text-transform: capitalize;
+}
+
+
+/* line 88, G:/laragon/www/movie/scss/_contact.scss */
+
+.primary_select {
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #eef0f4;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4b4b4b;
+    line-height: 60px;
+    padding-left: 25px;
+}
+
+
+/* line 98, G:/laragon/www/movie/scss/_contact.scss */
+
+.primary_select:active,
+.primary_select:hover,
+.primary_select.open,
+.primary_select:focus {
+    border-color: #eef0f4;
+}
+
+
+/* line 104, G:/laragon/www/movie/scss/_contact.scss */
+
+.primary_select .list {
+    width: 100%;
+}
+
+
+/* line 110, G:/laragon/www/movie/scss/_contact.scss */
+
+.primary_select::after {
+    right: 31px;
+    top: 3px;
+}
+
+
+/* line 118, G:/laragon/www/movie/scss/_contact.scss */
+
+.contact_section #contact-map {
+    height: 450px;
+    margin-bottom: 75px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 118, G:/laragon/www/movie/scss/_contact.scss */
+    .contact_section #contact-map {
+        margin-bottom: 50px;
+        height: 350px;
+    }
+}
+
+
+/* line 126, G:/laragon/www/movie/scss/_contact.scss */
+
+.contact_section .contact_address {
+    margin-bottom: 44px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 126, G:/laragon/www/movie/scss/_contact.scss */
+    .contact_section .contact_address {
+        margin-bottom: 25px;
+    }
+}
+
+
+/* line 131, G:/laragon/www/movie/scss/_contact.scss */
+
+.contact_section .contact_address:last-child {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 131, G:/laragon/www/movie/scss/_contact.scss */
+    .contact_section .contact_address:last-child {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* line 137, G:/laragon/www/movie/scss/_contact.scss */
+
+.contact_section .contact_address .contact__title {
+    margin-bottom: 30px;
+}
+
+
+/* line 139, G:/laragon/www/movie/scss/_contact.scss */
+
+.contact_section .contact_address .contact__title span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4b4b4b;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 6px;
+}
+
+
+/* line 147, G:/laragon/www/movie/scss/_contact.scss */
+
+.contact_section .contact_address .contact__title h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #001a3e;
+}
+
+
+/* line 155, G:/laragon/www/movie/scss/_contact.scss */
+
+.contact_section .contact_address .contact_info .single_contact_info {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 84px auto;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 575.98px) {
+    /* line 155, G:/laragon/www/movie/scss/_contact.scss */
+    .contact_section .contact_address .contact_info .single_contact_info {
+        grid-template-columns: 70px auto;
+    }
+}
+
+
+/* line 163, G:/laragon/www/movie/scss/_contact.scss */
+
+.contact_section .contact_address .contact_info .single_contact_info h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 575.98px) {
+    /* line 163, G:/laragon/www/movie/scss/_contact.scss */
+    .contact_section .contact_address .contact_info .single_contact_info h4 {
+        font-size: 18px;
+    }
+}
+
+
+/* line 173, G:/laragon/www/movie/scss/_contact.scss */
+
+.contact_section .contact_address .contact_info .single_contact_info p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 575.98px) {
+    /* line 173, G:/laragon/www/movie/scss/_contact.scss */
+    .contact_section .contact_address .contact_info .single_contact_info p {
+        position: relative;
+        top: -2px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* line 173, G:/laragon/www/movie/scss/_contact.scss */
+    .contact_section .contact_address .contact_info .single_contact_info p {
+        position: relative;
+        top: -2px;
+    }
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 2, G:/laragon/www/movie/scss/_service_details.scss */
+
+.service_details_area .service__details_title {
+    padding-top: 66px;
+    padding-bottom: 115px;
+}
+
+@media (max-width: 991.98px) {
+    /* line 2, G:/laragon/www/movie/scss/_service_details.scss */
+    .service_details_area .service__details_title {
+        padding-top: 45px;
+        padding-bottom: 20px;
+    }
+}
+
+
+/* line 11, G:/laragon/www/movie/scss/_service_details.scss */
+
+.service_details_area .service__details_single:not(:last-child) {
+    padding: 0 0 50px 0;
+}
+
+@media (max-width: 991.98px) {
+    /* line 11, G:/laragon/www/movie/scss/_service_details.scss */
+    .service_details_area .service__details_single:not(:last-child) {
+        padding: 0 0 30px 0;
+    }
+}
+
+
+/* line 19, G:/laragon/www/movie/scss/_service_details.scss */
+
+.max_clean_tabmenu {
+    border-bottom: 1px solid #ededed;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 575.98px) {
+    /* line 19, G:/laragon/www/movie/scss/_service_details.scss */
+    .max_clean_tabmenu {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+
+/* line 28, G:/laragon/www/movie/scss/_service_details.scss */
+
+.max_clean_tabmenu li a {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #173e62;
+    padding-bottom: 30px;
+    text-align: center;
+    position: relative;
+    padding-top: 1px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 28, G:/laragon/www/movie/scss/_service_details.scss */
+    .max_clean_tabmenu li a {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 28, G:/laragon/www/movie/scss/_service_details.scss */
+    .max_clean_tabmenu li a {
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+}
+
+
+/* line 45, G:/laragon/www/movie/scss/_service_details.scss */
+
+.max_clean_tabmenu li a::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background: #ffd500;
+    width: 0%;
+    transform-origin: right;
+    transition: .3s;
+    bottom: -1px;
+    transform: scaleX(0);
+}
+
+
+/* line 58, G:/laragon/www/movie/scss/_service_details.scss */
+
+.max_clean_tabmenu li a:hover,
+.max_clean_tabmenu li a.active {
+    color: #ffd500;
+}
+
+
+/* line 60, G:/laragon/www/movie/scss/_service_details.scss */
+
+.max_clean_tabmenu li a:hover::before,
+.max_clean_tabmenu li a.active::before {
+    transform-origin: left;
+    transform: scaleX(1);
+    width: 100%;
+}
+
+
+/* line 66, G:/laragon/www/movie/scss/_service_details.scss */
+
+.max_clean_tabmenu li a.active {
+    color: #ffd500;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 2, G:/laragon/www/movie/scss/_project_details.scss */
+
+.project_details_area .project_title_details {
+    padding-bottom: 44px;
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+@media (max-width: 767.98px) {
+    /* line 2, G:/laragon/www/movie/scss/_project_details.scss */
+    .project_details_area .project_title_details {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /* line 2, G:/laragon/www/movie/scss/_project_details.scss */
+    .project_details_area .project_title_details {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* line 13, G:/laragon/www/movie/scss/_project_details.scss */
+
+.project_details_area .project_title_details .project_title_left .single_pro_title {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 13, G:/laragon/www/movie/scss/_project_details.scss */
+    .project_details_area .project_title_details .project_title_left .single_pro_title {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* line 18, G:/laragon/www/movie/scss/_project_details.scss */
+
+.project_details_area .project_title_details .project_title_left .single_pro_title h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+
+/* line 28, G:/laragon/www/movie/scss/_project_details.scss */
+
+.project_details_area .project_title_details .project_title_right {
+    border-left: 1px solid #e3e3e3;
+    padding-left: 115px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 28, G:/laragon/www/movie/scss/_project_details.scss */
+    .project_details_area .project_title_details .project_title_right {
+        border-left: 0;
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 28, G:/laragon/www/movie/scss/_project_details.scss */
+    .project_details_area .project_title_details .project_title_right {
+        padding-left: 50px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* line 28, G:/laragon/www/movie/scss/_project_details.scss */
+    .project_details_area .project_title_details .project_title_right {
+        padding-left: 60px;
+    }
+}
+
+
+/* line 43, G:/laragon/www/movie/scss/_project_details.scss */
+
+.project_details_area .project_title_details .project_title_right .single_d_info:not(:last-child) {
+    margin-bottom: 36px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 43, G:/laragon/www/movie/scss/_project_details.scss */
+    .project_details_area .project_title_details .project_title_right .single_d_info:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* line 49, G:/laragon/www/movie/scss/_project_details.scss */
+
+.project_details_area .project_title_details .project_title_right .single_d_info h3 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #071a3c;
+    margin-bottom: 22px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 49, G:/laragon/www/movie/scss/_project_details.scss */
+    .project_details_area .project_title_details .project_title_right .single_d_info h3 {
+        font-size: 25px;
+    }
+}
+
+
+/* line 66, G:/laragon/www/movie/scss/_project_details.scss */
+
+.project_details_area .single_project__details .thumb {
+    padding-bottom: 40px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 66, G:/laragon/www/movie/scss/_project_details.scss */
+    .project_details_area .single_project__details .thumb {
+        padding-bottom: 30px;
+    }
+}
+
+
+/* line 72, G:/laragon/www/movie/scss/_project_details.scss */
+
+.project_details_area .single_project__details h4 {
+    line-height: 35px;
+    margin: 36px 0 42px 0;
+}
+
+@media (max-width: 767.98px) {
+    /* line 72, G:/laragon/www/movie/scss/_project_details.scss */
+    .project_details_area .single_project__details h4 {
+        margin: 30px 0 40px 0;
+    }
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_error.scss */
+
+.error_404_wrapper {
+    padding: 300px 0 200px 0;
+}
+
+@media (max-width: 767.98px) {
+    /* line 1, G:/laragon/www/movie/scss/_error.scss */
+    .error_404_wrapper {
+        padding: 150px 0 100px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 1, G:/laragon/www/movie/scss/_error.scss */
+    .error_404_wrapper {
+        padding: 250px 0 150px 0;
+    }
+}
+
+
+/* line 9, G:/laragon/www/movie/scss/_error.scss */
+
+.error_404_wrapper .error_info {
+    text-align: center;
+}
+
+
+/* line 12, G:/laragon/www/movie/scss/_error.scss */
+
+.error_404_wrapper .error_info .thumb img {
+    max-width: 374px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 12, G:/laragon/www/movie/scss/_error.scss */
+    .error_404_wrapper .error_info .thumb img {
+        max-width: 200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* line 12, G:/laragon/www/movie/scss/_error.scss */
+    .error_404_wrapper .error_info .thumb img {
+        max-width: 300px;
+    }
+}
+
+
+/* line 22, G:/laragon/www/movie/scss/_error.scss */
+
+.error_404_wrapper .error_info h3 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    margin-top: 26px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 22, G:/laragon/www/movie/scss/_error.scss */
+    .error_404_wrapper .error_info h3 {
+        font-size: 35px;
+    }
+}
+
+
+/* line 31, G:/laragon/www/movie/scss/_error.scss */
+
+.error_404_wrapper .error_info p {
+    margin-bottom: 45px;
+}
+
+@media (max-width: 767.98px) {
+    /* line 31, G:/laragon/www/movie/scss/_error.scss */
+    .error_404_wrapper .error_info p {
+        margin-bottom: 30px;
+    }
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_footer.scss */
+
+footer {
+    position: relative;
+    background-size: cover;
+    background-position: top center;
+}
+
+
+/* line 5, G:/laragon/www/movie/scss/_footer.scss */
+
+footer .footer_top_area {
+    background: #0e0e0e;
+    display: flex;
+    align-items: center;
+    padding: .5rem 1.5rem;
+}
+
+
+/* line 10, G:/laragon/www/movie/scss/_footer.scss */
+
+footer .footer_top_area .copy_right_text {
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+
+/* line 14, G:/laragon/www/movie/scss/_footer.scss */
+
+footer .footer_top_area .copy_right_text svg {
+    width: 25px;
+    margin-right: 10px;
+}
+
+
+/* line 18, G:/laragon/www/movie/scss/_footer.scss */
+
+footer .footer_top_area .copy_right_text p {
+    font-size: 0.8125rem;
+    color: white;
+}
+
+
+/* line 23, G:/laragon/www/movie/scss/_footer.scss */
+
+footer .footer_top_area .footer_top_right {
+    flex: 1 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 68px;
+}
+
+
+/* line 28, G:/laragon/www/movie/scss/_footer.scss */
+
+footer .footer_top_area .footer_top_right .foloow_text {
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+/* line 32, G:/laragon/www/movie/scss/_footer.scss */
+
+footer .footer_top_area .footer_top_right .social_links {
+    padding-left: 1rem;
+}
+
+
+/* line 34, G:/laragon/www/movie/scss/_footer.scss */
+
+footer .footer_top_area .footer_top_right .social_links a {
+    font-size: 0.8125rem;
+    color: #fff;
+}
+
+
+/* line 37, G:/laragon/www/movie/scss/_footer.scss */
+
+footer .footer_top_area .footer_top_right .social_links a:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+
+/* line 44, G:/laragon/www/movie/scss/_footer.scss */
+
+footer .quick_links_area {
+    background: #0E0E0E;
+    display: flex;
+    align-items: center;
+    padding: 9px 1.5rem;
+}
+
+
+/* line 49, G:/laragon/www/movie/scss/_footer.scss */
+
+footer .quick_links_area .quick_links {
+    flex: 1 0 0;
+}
+
+
+/* line 51, G:/laragon/www/movie/scss/_footer.scss */
+
+footer .quick_links_area .quick_links a {
+    color: #fff;
+    font-size: 0.8125rem;
+    white-space: nowrap;
+    padding-right: 1rem;
+}
+
+
+/* line 60, G:/laragon/www/movie/scss/_footer.scss */
+
+.border_top_1px {
+    border-top: 1px solid #dfdfdf;
+}
+
+
+/* line 64, G:/laragon/www/movie/scss/_footer.scss */
+
+.theme_mailChimp {
+    height: 50px;
+    background: #ebc401;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+/* line 70, G:/laragon/www/movie/scss/_footer.scss */
+
+.theme_mailChimp .form-control {
+    background: #ebc401;
+    color: #071a3c;
+    font-weight: 400;
+    padding-left: 20px;
+    border-radius: 5px;
+    height: 50px;
+    border: 0;
+}
+
+
+/* line 78, G:/laragon/www/movie/scss/_footer.scss */
+
+.theme_mailChimp .form-control::placeholder {
+    color: #6a696c;
+}
+
+
+/* line 81, G:/laragon/www/movie/scss/_footer.scss */
+
+.theme_mailChimp .form-control:focus {
+    box-shadow: none !important;
+    z-index: 1;
+}
+
+
+/* line 86, G:/laragon/www/movie/scss/_footer.scss */
+
+.theme_mailChimp button {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffd500;
+    background: #071a3c;
+    text-transform: uppercase;
+    border-radius: 5px !important;
+    padding: 0 18px;
+    box-shadow: none !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 0;
+    height: 100%;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 1, G:/laragon/www/movie/scss/_movie_lists.scss */
+
+
+
+
+/* line 6, G:/laragon/www/movie/scss/_movie_lists.scss */
+
+.movie_lists_carousel.owl-carousel .owl-nav div {
+    top: 37%;
+}
+
+
+/* line 11, G:/laragon/www/movie/scss/_movie_lists.scss */
+
+.single_movie .thumb {
+    overflow: hidden;
+}
+
+
+/* line 13, G:/laragon/www/movie/scss/_movie_lists.scss */
+
+.single_movie .thumb img {
+    width: 100%;
+    transform: scale(1);
+    transition: .7s;
+    min-height: 312px;
+}
+
+
+/* line 19, G:/laragon/www/movie/scss/_movie_lists.scss */
+
+.single_movie .movie_meta {
+    padding: 0px 0.5rem;
+    margin-bottom: 31px;
+    margin-top: 28px;
+}
+
+
+/* line 22, G:/laragon/www/movie/scss/_movie_lists.scss */
+
+.single_movie .movie_meta span {
+    padding: 0.125rem 0.25rem;
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 0.8125rem;
+    color: black;
+    background-color: #eeeeee;
+}
+
+
+/* line 30, G:/laragon/www/movie/scss/_movie_lists.scss */
+
+.single_movie .movie_meta h3 {
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 0;
+}
+
+
+/* line 34, G:/laragon/www/movie/scss/_movie_lists.scss */
+
+.single_movie .movie_meta h3 a {
+    display: inline-block;
+    max-width: 100%;
+    font-size: 1.0625rem;
+    line-height: 1.2;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* line 44, G:/laragon/www/movie/scss/_movie_lists.scss */
+
+.single_movie .movie_meta p {
+    margin: 0px;
+    font-size: 0.8125rem;
+    line-height: 1.3;
+    color: #1a1a1a;
+    font-weight: 300;
+}
+
+
+/* line 54, G:/laragon/www/movie/scss/_movie_lists.scss */
+
+.single_movie:hover .thumb img {
+    transform: scale(1.1);
+}
+
+
+/*----------------------------------------------------*/
+
+
+/*----------------------------------------------------*/
+
+
+/* line 2, G:/laragon/www/movie/scss/_brand.scss */
+
+.brand_wrapper h4 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0.5rem 0px;
+    margin-bottom: 15px;
+}
+
+
+/* line 10, G:/laragon/www/movie/scss/_brand.scss */
+
+.brand_wrapper .brand_wrapper_inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 15px;
+}
+
+
+/* line 14, G:/laragon/www/movie/scss/_brand.scss */
+
+.brand_wrapper .brand_wrapper_inner .single_brand {
+    border: 1px solid #eaeaea;
+    transition: .3s;
+}
+
+
+/* line 17, G:/laragon/www/movie/scss/_brand.scss */
+
+.brand_wrapper .brand_wrapper_inner .single_brand:hover {
+    border: 1px solid #919191;
+    box-shadow: rgba(216, 216, 216, 0.5) 0px 6px 6px 0px;
+}
+
+
+/* line 21, G:/laragon/www/movie/scss/_brand.scss */
+
+.brand_wrapper .brand_wrapper_inner .single_brand img {
+    width: 100%;
+}
+
+
+/* line 28, G:/laragon/www/movie/scss/_brand.scss */
+
+.movie_player_wrapper {
+    padding-top: 2.75rem;
+}
+
+
+/* line 30, G:/laragon/www/movie/scss/_brand.scss */
+
+.movie_player_wrapper .section__title {
+    padding-left: 2.75rem;
+}
+
+
+/* line 33, G:/laragon/www/movie/scss/_brand.scss */
+
+.movie_player_wrapper .movie_payer_inner {
+    background-color: #191919;
+}
+
+
+/* line 38, G:/laragon/www/movie/scss/_brand.scss */
+
+.movie_player_wrapper .movie_payer_inner .single_movie_player .movie_preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 270px;
+}
+
+
+/* line 44, G:/laragon/www/movie/scss/_brand.scss */
+
+.movie_player_wrapper .movie_payer_inner .single_movie_player .movie_preview .movie_play_icon {
+    font-size: 30px;
+    color: #fff;
+}
+
+
+/* line 50, G:/laragon/www/movie/scss/_brand.scss */
+
+.movie_player_wrapper .movie_payer_inner .single_movie_player .movie_captions h3 {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 1.25rem;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.625em;
+    text-align: left;
+    text-transform: capitalize;
+    white-space: pre-wrap;
+    color: white;
+}
+
+
+/* line 69, G:/laragon/www/movie/scss/_brand.scss */
+
+.movie_bg_1 {
+    background-image: url(../img/movie_img/bg_1.jpg);
+}
+
+.movie_bg_t {
+    background-image: url(../img/movie_img/video-img.jpg);
+}
+
+
+/* line 73, G:/laragon/www/movie/scss/_brand.scss */
+
+.gallery_carousel {
+    padding-top: 2.75rem;
+}
+
+
+/* line 75, G:/laragon/www/movie/scss/_brand.scss */
+
+/* .gallery_carousel .section__title {
+    padding-left: 2.75rem;
+} */
+
+
+/* line 78, G:/laragon/www/movie/scss/_brand.scss */
+
+.gallery_carousel .gallery_carousel_inner {
+    background: #0E0E0E;
+}
+
+
+/* line 81, G:/laragon/www/movie/scss/_brand.scss */
+
+.gallery_carousel .single_testmonial {
+    border-bottom: 1px solid #666666;
+}
+
+
+/* line 83, G:/laragon/www/movie/scss/_brand.scss */
+
+.gallery_carousel .single_testmonial img {
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+
+/* line 92, G:/laragon/www/movie/scss/_brand.scss */
+
+.gallery_carousel .slider-nav .slick-slide {
+    margin: 8px 8px 8px 0px;
+    border: 4px solid transparent;
+    overflow: hidden;
+}
+
+
+/* line 96, G:/laragon/www/movie/scss/_brand.scss */
+
+.gallery_carousel .slider-nav .slick-slide:hover img {
+    transform: scale(1.1);
+}
+
+
+/* line 99, G:/laragon/www/movie/scss/_brand.scss */
+
+.gallery_carousel .slider-nav .slick-slide img {
+    display: inline-block;
+    width: 100%;
+    transform: scale(1);
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+/* line 106, G:/laragon/www/movie/scss/_brand.scss */
+
+.gallery_carousel .slider-nav .slick-slide.slick-current.slick-active {
+    border: 4px solid #00b3ff;
+}
+
+
+/* line 113, G:/laragon/www/movie/scss/_brand.scss */
+
+.about_movie_wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: #1e1e1e;
+}
+
+
+/* line 117, G:/laragon/www/movie/scss/_brand.scss */
+
+.about_movie_wrapper .thumb {
+    flex: 1 1 0%;
+    padding: 2rem;
+}
+
+
+/* line 120, G:/laragon/www/movie/scss/_brand.scss */
+
+.about_movie_wrapper .thumb img {
+    display: block;
+    width: 16rem;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px auto;
+}
+
+
+/* line 128, G:/laragon/www/movie/scss/_brand.scss */
+
+.about_movie_wrapper .about_info {
+    /* flex: 2 1 0%; */
+    padding: 2rem;
+}
+
+
+/* line 131, G:/laragon/www/movie/scss/_brand.scss */
+
+.about_movie_wrapper .about_info h3 {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+
+/* line 137, G:/laragon/www/movie/scss/_brand.scss */
+
+.about_movie_wrapper .about_info p {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.625em;
+    font-weight: 300;
+}
+
+
+/* line 143, G:/laragon/www/movie/scss/_brand.scss */
+
+.about_movie_wrapper .about_info button {
+    width: 100%;
+    padding: 0.3125rem;
+    border: 0px none;
+    font-size: 0.75rem;
+    font-weight: 800;
+    background-color: #cccccc;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/* line 155, G:/laragon/www/movie/scss/_brand.scss */
+
+.about_movie_wrapper .about_movie_info {
+    padding: 2rem;
+    flex: 1 1 0%;
+    background-color: #191919;
+}
+
+
+/* line 159, G:/laragon/www/movie/scss/_brand.scss */
+
+.about_movie_wrapper .about_movie_info .about_movie_single {
+    margin-bottom: 25px;
+}
+
+
+/* line 161, G:/laragon/www/movie/scss/_brand.scss */
+
+.about_movie_wrapper .about_movie_info .about_movie_single h5 {
+    margin: 0px 0px 0.5rem;
+    font-size: 23px;
+    color: #d9d9d97a;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+/* line 168, G:/laragon/www/movie/scss/_brand.scss */
+
+.about_movie_wrapper .about_movie_info .about_movie_single p {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+
+/* line 175, G:/laragon/www/movie/scss/_brand.scss */
+
+.about_movie_wrapper .about_movie_info .about_movie_single .social_links a {
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+/* line 179, G:/laragon/www/movie/scss/_brand.scss */
+
+.about_movie_wrapper .about_movie_info .about_movie_single .social_links a:hover {
+    color: #1778f2;
+}
+
+
+/* about-page */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}
+
+.news-img {
+    transition: all 0.6s ease-in-out;
+}
+
+
+/* ashik start */
+
+
+/* color class start  */
+.bg_0e0e0e{
+    background-color: #0e0e0e;
+}
+.bg_1e1e1e{
+    background-color: #1e1e1e;
+}
+
+.bg_171717{
+    background-color: #171717;
+}
+.bg_1A1A1A{
+    background-color: #1A1A1A;
+}
+
+.border_radius_small{
+    border-radius:20px;
+}
+
+/* color class  end */
+
+.card-header h4{
+    color:#ffffff;
+}
+.con_text h4{
+    color:#ffffff;
+}
+.con_text p{
+    color:#ffffff;
+}
+.watchit h3 {
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: -12px;
+    margin-bottom: 50px;
+}
+
+.item .slick-slide .slick-current .slick-active img{
+    width: 108px !important;
+}
+.coming_test{
+    background-color: rgb(217 208 208 / 23%);
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.movie_list_area {
+    padding-top: 30px;
+}
+.h_profile{
+    margin-top:98px;
+}
+.th_movie{
+    margin-left:39px;
+}
+.tr_movie{
+    margin-left:39px;
+}
+.up_movie{
+    margin-left:24px;
+}
+
+
+.table thead th{
+    color:#ffffff;
+}
+
+.theme_btn{
+    margin-top: 7px;
+    background-color: #ff000099;
+    color: white;
+	position: relative;
+}
+.theme_btn .icon-text {
+	padding-left: 10px;
+}
+.theme_btn.cinebaz_url .svg-icon {
+	background-image: url('../assets/img/cinebaz-white-square-graphic-only.svg');
+	width: 24px;
+	height: 24px;
+	background-size: contain;
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+}
+.theme_btn:hover .svg-icon  {
+	background-image: url('../assets/img/cinebaz-dark-square-graphic-only.svg');
+}
+.mov_nam{
+    font-size: 17px;
+}
+.up-img img{
+    width: 100%;
+    margin: 0px 10px;
+    border-radius: 20px;
+    display: block;
+}
+.song img.landscape{
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.cat_list{
+    background-color: #8584843b;
+    padding:2px;
+    font-size: 10px;
+    color:#ffffff;
+}
+
+.about_cs{
+    margin-top:100px;
+    margin-bottom: 150px;
+}
+.ft-part{
+    margin-top:100px;
+    margin-bottom: 150px;
+}
+.first_bread1{
+    margin-top:26px;
+    margin-left:27px;
+}
+.first_bread{
+    margin-top:70px;
+}
+.a_cbd li a{
+    color:#ffffff;
+}
+.shapla_brdcmp1::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color:#ffffff !important;
+    content: "/";
+}
+.card-price {
+    display: inline-block;
+
+    width: auto;
+    height: 38px;
+    background-color: #e8a516;
+    -webkit-border-radius: 3px 4px 4px 3px;
+    -moz-border-radius: 3px 4px 4px 3px;
+    border-radius: 3px 4px 4px 3px;
+
+    border-left: 1px solid #e8a516;
+
+    /* This makes room for the triangle */
+    margin-left: 19px;
+
+    position: relative;
+
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 38px;
+
+    padding: 0 10px 0 10px;
+}
+
+/* Makes the triangle */
+.card-price:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: -19px;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-right: 19px solid #e8a516;
+}
+
+/* Makes the circle */
+.card-price:after {
+    content: "";
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    left: -9px;
+    top: 17px;
+}
+
+.img_detail {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.sec_inv {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.gallery_carousel .single_testmonial img{
+    height: 400px;
+}
+
+/* responsive start 414  */
+@media (max-width: 414px) {
+    .oddPadding > div:nth-child(even) {
+        padding-left: 7px;
+    }
+    
+    .oddPadding > div:nth-child(odd) {
+        padding-right: 7px;
+    }
+    .border_radius_small{
+        border-radius:5px !important;
+    }
+    .breadcrumb{
+        margin-left:0px!important;
+    }
+   
+    .prof_bg{
+        margin-left:0px !important;
+    }
+
+    .logos .foot{
+        display:none !important;
+    }
+    .font-20px {
+        font-size:20px !important;
+    }
+    .up_movie{
+        margin-top: -110px;
+    }
+    .up-img img {
+        min-height: 233px!important;
+        border-radius: 8px;
+    }
+    .movie_metal h3{
+        font-size: 15px!important;
+    }
+    .rmt{
+        margin-top:80px !important;
+    }
+    .section__title h3 {
+        font-size: 12px;
+        margin-top: -75px;
+        margin-bottom: 50px;
+
+    }
+    
+    .song img.landscape{
+        border-radius: 8px;
+    }
+
+    .a_cb{
+        margin-top: 77px!important;
+    }
+
+    .banner_area .banner_text h3{
+        text-align: left;
+        font-weight: 400 !important;
+    }
+    .banner_area .banner_text{
+        border-left:none;
+        padding-left: 0px;
+        margin-bottom: 50px!important ;
+    }
+    
+    .theme_btn.cinebaz_url .svg-icon{
+        left: 2px !important;
+      }
+    .res{
+        margin-top: -26px !important;
+    }
+
+    footer .footer_top_area .footer_top_right {
+        display:none !important;
+    }
+    footer .footer_top_area .copy_right_text {
+        display: flex;
+        align-items: center;
+        flex: 1 0 0;
+        padding-top: 23px;
+        padding-bottom: 4px;
+    }
+    .songt{
+        margin-top:50px !important;
+    }
+    .watchit h3 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-top: 3px!important;
+        margin-bottom: 50px;
+    }
+    .section__title .watchit .main h3{
+        margin-top:100px !important;
+    }
+
+    
+    .movie_list_area {
+        margin-top: 130px!important;
+    }
+    .respro{
+        width:50%;
+    }
+    #work_h2{
+      margin-right:0px !important;
+    }
+
+    .section__title .about{
+        font-size: 20px;
+    }
+    
+
+    .inves h3{
+        font-size: 12px;
+        line-height: 23px;
+        margin-top: 50px!important;
+        margin-bottom: 30px!important;
+    }
+    .subheader_menu .subheader_menu_right li a {
+        padding: 0px !important;
+    }
+
+}
+/* responsive end 320 to 410 */
+/* responsive start 411 to 822 */
+
+@media (min-width: 411px) and (max-width: 822.98px) {
+    /* line 30, G:/laragon/www/movie/scss/_title.scss */
+    .section__title h3.large_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .gallery_carousel .single_testmonial img{
+        height: 400px;
+    }
+
+    .prof_bg{
+        margin-left:0px !important;
+    }
+    .respro{
+        width:50%;
+    }
+
+    .subheader_menu .subheader_menu_right li a {
+        padding: 0px !important;
+    }
+
+    
+    #work_h2{
+        margin-right:0px !important;
+      }
+    
+    .banner_area .banner_text{
+        border-left:none;
+        padding-left: 0px;
+        margin-bottom: 50px !important;
+    }
+    .theme_btn.cinebaz_url .svg-icon{
+      left: 2px !important;
+    }
+    .logos .foot{
+        display:none !important;
+    }
+    
+    .up_movie{
+        margin-top: -110px;
+    }
+    .up-img img {
+        min-height: 233px!important;
+        border-radius: 8px;
+    }
+    .movie_metal h3{
+        font-size: 15px!important;
+    }
+    .rmt{
+        margin-top:80px !important;
+    }
+
+    .section__title h3 {
+        font-size: 18px;
+        margin-top: -75px;
+        margin-bottom: 50px;
+
+    }
+    
+    .inves h3{
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 50px!important;
+        margin-bottom: 30px!important;
+    }
+    .song img.landscape{
+        border-radius: 8px;
+    }
+
+    .a_cb {
+        margin-top: 77px!important;
+    }
+    .banner_area .banner_text h3{
+        text-align: left;
+        font-weight: 400 !important;
+    }
+    .res{
+        margin-top: -26px !important;
+    }
+
+    footer .footer_top_area .footer_top_right {
+        display:none !important;
+    }
+    footer .footer_top_area .copy_right_text {
+        display: flex;
+        align-items: center;
+        flex: 1 0 0;
+        padding-top: 23px;
+        padding-bottom: 7px;
+    }
+    .songt{
+        margin-top:50px !important;
+    }
+    .watchit h3 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-top: 0px!important;
+        margin-bottom: 50px;
+    }
+    .section__title .watchit .main h3{
+        margin-top:100px !important;
+    }
+
+    .mov_tr{
+        margin-bottom: 35px;
+    }
+    .movie_list_area {
+        margin-top: 130px!important;
+    }
+
+}
+/* responsive end  411 to 822 */
+
+/* responsive start 991to 822 */
+
+
+@media(max-width:991px) {
+
+
+    .banner_area .banner_text h3{
+        font-size:20px;
+        font-weight: 100;
+    }
+
+
+    .banner_area .banner_text p{
+        font-weight: 100;
+    }
+    .banner_text{
+        width: 100%;
+        text-align: justify;
+        font-weight: 100;
+    }
+    .song-img{
+        padding:0px !important;
+    }
+    .brand_wrapper h4{
+        margin-left: 14px;
+    }
+    .mov_nam{
+        font-size: 13px;
+    }
+    .section__title .ml-3 .mov_tre h3{
+        margin-top: -100px !important;
+        margin-left: 2px;
+    }
+    .about h3{
+        margin-top: -66px !important;
+        margin-left: -3px !important;
+    }
+    .mi_about h3{
+        margin-left: 130px;
+    }
+    .omp{
+        margin-left: 130px;
+    }
+    .movie_list_area {
+        padding: 0px !important;
+    }
+    .cat_list{
+        font-size:9px;
+    }
+    .up-img img{
+        width: 100%;
+        min-height: 283px;
+    }
+    .res{
+        width: 50%;
+        margin-top: 50px;
+    }
+    .mov_1{
+        margin-left: -9px;
+        margin-top: 45px !important;
+        font-size: 13px;
+    }
+    .a_cbd{
+
+        margin-top: 87px;
+        font-size: 13px;
+    }
+    .ft-part1{
+        margin-left: 50px;
+    }
+    .gototop{
+      margin-top: 20px;
+    }
+    .rec_1{
+        padding: 0px !important;
+    }
+    .first_bread1{
+     margin-top: 41px;
+     margin-left: 5px;
+    }
+    .first_bread2{
+        margin-top: 41px;
+        margin-left: 5px;
+       }
+    .a_cb {
+        margin-top: -21px;
+        font-size: 13px;
+        margin-left: -12px;
+    }
+    .a_cbsd {
+        margin-top: -21px;
+        font-size: 13px;
+        margin-left: -12px;
+    }
+    .theme_btn{
+        margin-top: 7px;
+        background-color: #ff000099;
+        color: white;
+    }
+    .about_movie_info{
+    padding-right: 23px;
+    }
+    footer .footer_top_area .copy_right_text p{
+        font-size: 10px;
+        line-height: 19px;
+    }
+   
+    .header_area svg{
+        display: none;
+    }
+
+    .img_detail {
+        margin-left: 0px !important;
+    }
+    .news-img {
+        margin-left: 75px;
+    }
+    .voice {
+        margin-left: 82px;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+    
+    .about_movie_wrapper .thumb {
+        padding: 0rem;
+    }
+    .single_carousel {
+        width: auto;
+    }
+    .about_movie_single h4 {
+        font-size: 17px;
+    }
+    .about_movie_wrapper .thumb img {
+        display: block;
+        width: 16rem;
+        max-height: 100%;
+        margin: 0px auto;
+    }
+}
+
+
+
+/* ashik end */
+
+.gototop {
+    -webkit-box-shadow: inset 0 0 15px 0px black;
+    -moz-box-shadow: inset 0 0 15px 0px black;
+    box-shadow: inset 0 0 15px 0px black;
+    background-color: #854935;
+    z-index: 999;
+    padding: 21px;
+    border-radius: 50%;
+    right: 1em;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+.gototop:hover {
+    color: #e9c76f;
+}
+
+.news-item:hover .news-img {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.c-blue{
+    color:#ffffff;
+    font-size: 13px;
+    text-align: justify;
+    line-height: 19px !important;
+
+}
+
+.table-custom-border thead th {
+    border-top: none;
+    border-bottom: 2px solid #343a40;
+}
+
+.table-custom-border td {
+    border-top: 1px solid #343a40;
+}

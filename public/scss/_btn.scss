@@ -1,0 +1,110 @@
+.theme_btn{
+    background: #fff;
+    padding: 10px;
+    @include border-radius(0px);
+    display: inline-block;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    padding: 15px 25px;
+    text-transform: capitalize;
+    display: inline-block;
+    line-height: 1;
+    @media #{$small_mobile} {
+        padding: 15px 16px;
+    }
+    &:hover{
+        color: #000;
+        border-color: #fff;
+        background: #fff ;
+    }
+}
+.theme_btn2{
+    background: $theme_color3;
+    padding: 10px;
+    @include border-radius(5px);
+    display: inline-block;
+    font-size: 14px;
+    color: $theme_color;
+    font-weight: 500;
+    padding: 22px 22px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 1;
+    @media #{$small_mobile} {
+        padding: 15px 16px;
+    }
+    &:hover{
+        color: $theme_color3;
+        border-color: $theme_color3;
+        background: transparent ;
+    }
+}
+.theme_btn3{
+    background: $btn_bg_1;
+    padding: 10px;
+    @include border-radius(5px);
+    display: inline-block;
+    font-size: 14px;
+    color: $theme_color3;
+    font-weight: 500;
+    padding: 17px 30px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 1;
+    @media #{$small_mobile} {
+        padding: 15px 16px;
+    }
+    &:hover{
+        color: $btn_bg_1;
+        border-color: $btn_bg_1;
+        background: transparent ;
+    }
+}
+.play_btn{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #071a3c;
+    border: 2px solid #071a3c;
+    font-size: 14px;
+    transition: .3s;
+    &.large_play_btn{
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        @media #{$small_mobile} {
+            width: 85px;
+            height: 85px;
+            line-height: 85px;
+        }
+        i{
+            font-size: 30px;
+            line-height: 100px;
+            position: relative;
+            top: -3px;
+            left: 1px;
+            @media #{$small_mobile} {
+                line-height: 85px;
+                top: 0;
+            }
+        }
+    }
+    &:hover{
+        background: $theme_color;
+        color: $white;
+    }
+    i{
+        font-size: 14px;
+        position: relative;
+        top: -1px;
+    }
+}
+
+
+

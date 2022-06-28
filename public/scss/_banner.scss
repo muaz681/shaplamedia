@@ -1,0 +1,158 @@
+.banner_area{
+    
+    .single_carousel{
+        height: 480px;
+        background-size: cover;
+        background-position: bottom center;
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        padding: 2.75rem;
+    }
+    .banner_text{
+        border-left: 0.1rem solid rgba(255, 255, 255, 0.4);
+        padding-left: 2.75rem;
+        h3{
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 800;
+            margin-bottom: 0;
+            @media #{$tab} {
+            }
+            @media #{$lg_device} {
+            }
+        }
+        p{
+            font-size: 1rem;
+            font-weight: 400;
+            color: #fff;
+            line-height: 1.1875rem;
+            margin: 7px 0 14px 0;
+        }
+        .banner_cta{
+            a:not(:last-child){
+                margin-right: 16px;
+            }
+        }
+    }
+}
+
+.banner_bg_1{
+    background-image: url(../img/banner/banner_bg_1.png);
+}
+
+.banner_bg_2{
+    background-image: url(../img/banner/banner_bg_2.png);
+}
+.banner_bg_3{
+    background-image: url(../img/banner/banner_bg_3.png);
+}
+.banner_bg_4{
+    background-image: url(../img/banner/banner_bg_4.png);
+}
+
+.video_play_screen{
+    .play_button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        svg{
+            width: 68px;
+            height: 48px;
+            color: #fff;
+            
+        }
+        svg:hover > path:first-child {
+            fill: rgb(255, 0, 0);
+            fill-opacity: 1;
+        }
+    }
+}
+
+.subheader_menu{
+    background: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    .subheader_menu_left{
+        display: flex;
+        .iFDqQu {
+            position: relative;
+            display: flex;
+            -moz-box-align: center;
+            align-items: center;
+            margin-right: 20px;
+            font-weight: 800;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 90, 163);
+            z-index: 2;
+            padding: 0px 0px 0px 20px;
+            &::after {
+                content: "";
+                display: block;
+                position: relative;
+                height: 0px;
+                padding: 0px;
+                left: 15px;
+                border-top: 20px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 15px solid rgb(255, 255, 255);
+            }
+        }
+        .kBMRXs{
+            position: relative;
+            display: flex;
+            -moz-box-align: center;
+            align-items: center;
+            margin-right: 20px;
+            font-weight: 800;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 90, 163);
+            z-index: 1;
+            padding: 0px 0px 0px 35px;
+            margin-left: -15px;
+            &::before {
+                content: "";
+                border-top: 20px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 15px solid #1A1A1A;
+                top: 0px;
+                left: 0px;
+                position: absolute;
+            }
+            &:after{
+                content: "";
+                display: block;
+                position: relative;
+                height: 0px;
+                padding: 0px;
+                left: 15px;
+                border-top: 20px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 15px solid rgb(255, 255, 255);
+            }
+        }
+    }
+    .subheader_menu_right{
+        display: flex;
+        -moz-box-align: center;
+        align-items: center;
+        -moz-box-pack: end;
+        justify-content: flex-end;
+        flex-direction: row;
+        margin-right: 40px;
+            margin-left: 20px;
+        li{
+            a{
+                padding: 9.5px;
+                font-weight: 800;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                display: inline-block;
+
+            }
+        }
+    }
+}

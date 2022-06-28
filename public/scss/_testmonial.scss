@@ -1,0 +1,63 @@
+.testmonial_area{
+    background: #f1faf6;
+    position: relative;
+    z-index: 1;
+    &::before{
+        position: absolute;
+        content: '';
+        left: 52.4%;
+        top: 22%;
+        background-image: url(../img/testmonial/doted_bg.png);
+        background-repeat: no-repeat;
+        width: 670px;
+        height: 400px;
+        transform: translateX(-50%) ;
+        border-radius: 10px;
+        z-index: -1;
+        @media #{$tab}   {
+            display: none;
+        }
+    }
+    .section__title{
+        margin-bottom: 100px;
+        @media #{$tab} {
+            margin-bottom: 40px;
+        }
+    }
+    .single_testmonial{
+        background: $white;
+        border-radius: 10px;
+        padding: 52px 50px 60px 60px;
+        @media #{$tab} {
+            padding: 30px;
+        }
+        p{
+            margin-bottom: 35px;
+        }
+        .test_meta{
+            display: flex;
+            align-items: center;
+            .thumb{
+                width: 60px;
+                height: 60px;
+                margin-right: 25px;
+                img{
+                    border-radius: 50%;
+                }
+            }
+            .test_name{
+                h4{
+                    font-size: 20px;
+                    font-weight: 400;
+                    font-family: $font1;
+                    margin-bottom: 3px;
+                }
+                span{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #4b4b4b;
+                }
+            }
+        }
+    }
+}

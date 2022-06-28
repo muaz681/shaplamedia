@@ -1,0 +1,71 @@
+.service_details_area{
+    .service__details_title{
+        padding-top: 66px;
+        padding-bottom: 115px;
+        @media #{$tab2} {
+            padding-top: 45px;
+            padding-bottom: 20px;
+        }
+    }
+    .service__details_single{
+        &:not(:last-child){
+            padding: 0 0 50px 0;
+            @media #{$tab2}{
+                padding: 0 0 30px 0;
+            }
+        }
+    }
+}
+.max_clean_tabmenu{
+    border-bottom: 1px solid #ededed;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    @media #{$small_mobile} {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+    }
+    li{
+        a{
+            font-size: 20px;
+            font-weight: 400;
+            font-family: $font1;
+            color: #173e62;
+            padding-bottom: 30px;
+            text-align: center;
+            position: relative;
+            padding-top: 1px;
+            @media #{$tab} {
+                font-size: 18px;
+                padding-bottom: 20px;
+            }
+            @media #{$medium_device} {
+                font-size: 17px;
+                padding-bottom: 20px;
+            }
+            &::before{
+                position: absolute;
+                content: '';
+                left: 0;
+                bottom: 0;
+                height: 2px;
+                background:$theme_color3;
+                width: 0%;
+                transform-origin: right;
+                transition: .3s;
+                bottom: -1px;
+                transform: scaleX(0);
+            }
+            &:hover,&.active{
+                color: $theme_color3;
+                &::before{
+                    transform-origin: left;
+                    transform: scaleX(1);
+                    width: 100%;
+                }
+            }
+            &.active{
+                color: $theme_color3;
+            }
+        }
+    }
+}

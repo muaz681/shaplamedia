@@ -1,0 +1,31 @@
+.team_area{
+    padding: 144px 0 0px 0;
+	@media #{$tab} {
+		padding: 69px 0 0px 0;
+	}
+    .single_team{
+        .thumb{
+            overflow: hidden;
+            margin-bottom: 35px;
+            img{
+                width: 100%;
+                transform: scale(1);
+                transition: .3s;
+            }
+        }
+        h4{
+            font-size: 24px;
+            font-weight: 400;
+            font-family: $font1;
+            margin-bottom:5px;
+        }
+        p{
+
+        }
+        &:hover{
+            .thumb img{
+                transform: scale(1.05);
+            }
+        }
+    }
+}

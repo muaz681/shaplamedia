@@ -1,0 +1,102 @@
+footer{
+    position: relative;
+    background-size: cover;
+    background-position: top center;
+    .footer_top_area{
+        background: #1A1A1A;
+        display:flex;
+        align-items:center;
+        padding: .5rem 1.5rem;
+        .copy_right_text{
+            display: flex;
+            align-items: center;
+            flex: 1 0 0;
+            svg{
+                width: 25px;
+                margin-right: 10px;
+            }
+            p{
+                font-size: 0.8125rem;
+                color: rgb(255, 255, 255);
+            }
+        }
+        .footer_top_right{
+            flex: 1 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .foloow_text{
+                font-size: 1rem;
+                color: #fff;
+            }
+            .social_links{
+                padding-left: 1rem;
+                a{
+                    font-size: 0.8125rem;
+                    color: #fff;
+                    &:not(:last-child){
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+    .quick_links_area{
+        background: #0E0E0E;
+        display: flex;
+        align-items: center;
+        padding: 9px 1.5rem;
+        .quick_links{
+            flex: 1 0 0;
+            a{
+                color: #fff;
+                font-size: 0.8125rem;
+                white-space: nowrap;
+                padding-right: 1rem;
+            }
+        }
+    }
+}
+.border_top_1px{
+    border-top: 1px solid #dfdfdf;
+}
+
+.theme_mailChimp {
+    height: 50px;
+    background: #ebc401;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    position: relative;
+    .form-control{
+        background: #ebc401;
+        color:#071a3c;
+        font-weight: 400;
+        padding-left: 20px;
+        border-radius: 5px;
+        height: 50px;
+        border: 0;
+        &::placeholder{
+            color: #6a696c;
+        }
+        &:focus{
+            box-shadow: none !important;
+            z-index: 1;
+        }
+    }
+    button{
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffd500;
+        background: $theme_color;
+        text-transform: uppercase;
+        border-radius: 5px !important;
+        padding: 0 18px;
+        box-shadow: none !important;
+        // width: 100px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: 0;
+        height: 100%;
+    }
+}

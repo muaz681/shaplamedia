@@ -1,0 +1,15 @@
+.counter_area{
+    .single_counter{
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0px 2px 9.8px 0.2px rgba(0, 0, 0, 0.05);
+        padding:  34px 20px 36px 50px;
+        h3{
+            font-size: 40px;
+            color: $theme_color;
+            font-weight: 400;
+            margin-bottom: 2px;
+        }
+    }
+}
+

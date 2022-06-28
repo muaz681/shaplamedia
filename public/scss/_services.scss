@@ -1,0 +1,118 @@
+.services_area{
+    // background-image: url(../img/service/service_bg.png);
+    padding: 150px 0 93px 0;
+    position: relative;
+    z-index: 2;
+    @media #{$tab} {
+        padding: 75px 0 45px 0;
+    }
+    &::before{
+        position: absolute;
+        content: '';
+        left: 0px;
+        right:0px;
+        top: 0;
+        bottom: 0;
+        background: #f1faf6;
+        z-index: -1;
+        @media #{'(min-width: 1800px)'} {
+            left: 160px;
+        right: 160px;
+        }
+        @media #{$tab2} {
+            left: 0;
+            right: 0;
+        }
+    }
+    .service_slide{
+        .single_service_slide{
+            border-radius: 20px;
+            box-shadow: 0px 2px 9.8px 0.2px rgba(0, 0, 0, 0.05);
+            background: #fff;
+            padding: 60px 30px 70px 30px;
+            margin-bottom: 35px;
+            .thumb{
+                margin: auto;
+                max-width: 75px;
+                img{
+                    width: auto;
+                }
+            }
+            h4{
+                font-size: 22px;
+                font-weight: 400;
+                color: $theme_color;
+                margin-bottom: 10px;
+                margin-top: 37px;
+            }
+            p{
+                font-size: 16px;
+                color: #4b4b4b;
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+.service__banner{
+    padding-top: 150px;
+    @media #{$tab} {
+        padding-top: 75px;
+    }
+    .services__banner_grid{
+        .thumb{
+            background-image: url(../img/service_page/bg.png);
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            @media #{$tab} {
+                height: 400px;
+            }
+        }
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        @media #{$tab} {
+            grid-template-columns: 1fr;
+        }
+        .services__info{
+            background-color: $white;
+            box-shadow: 0px 2px 9.8px 0.2px rgba(0, 0, 0, 0.05);
+            padding: 78px 30px 87px 86px;
+            @media #{$tab} {
+                padding: 25px;
+            }
+            @media #{$medium_device} {
+                padding: 30px;
+            }
+            @media #{$lg_device} {
+                padding: 35px;
+            }
+            @media #{$big_screen} {
+                padding: 45px;
+            }
+        }
+    }
+    .single_service__wiz{
+        border-radius: 20px;
+        background-color: #fff;
+        box-shadow: 0px 2px 9.8px 0.2px rgba(0, 0, 0, 0.05);
+        padding: 60px 25px 53px 25px;
+        .icon{ 
+
+        }
+        h3{
+            font-size: 22px;
+            font-weight: 400;
+            color: $theme_color;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+        p{
+
+        }
+    }
+}
+
+  
+
+  

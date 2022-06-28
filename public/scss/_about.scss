@@ -1,0 +1,90 @@
+.about_area{
+    @media #{$tab2} {
+        padding-top: 75px;
+    }
+    .about_thumb{
+        position: relative;
+        left: -50px;
+        @media #{$tab2} {
+            left: 0;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .about_wrapper{
+        padding-top: 151px;
+        padding-bottom: 150px;
+        @media #{$tab} {
+            padding-top: 40px;
+            padding-bottom: 75px;
+        }
+    }
+    .about_wrapper_inner{
+        .about_info{
+            p{
+                font-size: 20px;
+                color: $theme_color;
+                font-weight: 400;
+                line-height: 30px;
+            }
+            .about_cta{
+                margin-top: 57px;
+                .about_cta_inner{
+                    display: flex;
+                    .icon{
+                        margin-right: 30px;
+                    }
+                    .about_cta_text{
+                        h4{
+                            font-size: 20px;
+                            font-weight: 400;
+                            color: $theme_color;
+                        }
+                        p{
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #4b4b4b;
+                            line-height: 30px;
+                            margin-bottom: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.horizontal_line{
+    background: #ffd500;
+    width: 70px;
+    height: 2px;
+    display: inline-block;
+    flex: 70px 0 0;
+}
+
+// about_page_warapper 
+.about_page_warapper{
+    .about_text{
+        position: relative;
+        top: -13px;
+        @media #{$tab} {
+           top: 0; 
+        }
+        p{
+            margin-top: 28px;
+            margin-bottom: 71px;
+            @media #{$tab} {
+                margin-top: 20px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+.pr_xl_70{
+    @media #{$xl_device} {
+        padding-right: 70px;
+    }
+    
+}
